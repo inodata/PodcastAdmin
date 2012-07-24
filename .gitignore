@@ -1,0 +1,11 @@
+# Project files #
+/config/databases.yml
+/cache/*
+/log/*
+/web/uploads/*
+/web/podcasts/*
+
+# eclipse files #
+.settings
+.buildpath
+.project
