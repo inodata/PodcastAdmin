@@ -1,6 +1,7 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/04-Settings
 
+# backend
 prod:
   .settings:
     no_script_name:         false
@@ -24,6 +25,14 @@ test:
 
 all:
   .settings:
+    enabled_modules:        [default, sfGuardGroup, sfGuardUser, sfGuardPermission, sfGuardAuth]
+    
+    login_module:           sfGuardAuth   # To be called when a non-authenticated user
+    login_action:           signin     # Tries to access a secure page
+    
+    secure_module:          sfGuardAuth   # To be called when a user doesn't have
+    secure_action:          secure    # The credentials required for an action
+    
     # Form security secret (CSRF protection)
     csrf_secret:            3b4fcbcd1e97ce3d2bead53fb0d3e4937a16e048
 
