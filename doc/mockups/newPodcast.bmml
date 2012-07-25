@@ -1,0 +1,152 @@
+<mockup version="1.0" skin="sketch" measuredW="1261" measuredH="803" mockupW="1024" mockupH="768">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="237" y="35" w="1024" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Podcast%20Admin%20-%20Mucho%20Beat%0Ahttp%3A//itunes.muchobeat.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="267" y="89" w="125" h="124" measuredW="600" measuredH="600" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <filter>true</filter>
+        <src>./assets/muchobeat_transparency.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::ButtonBar" x="267" y="190" w="-1" h="-1" measuredW="329" measuredH="29" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>newChannel%26bm%3BnewChannel.bmml%26bm%3BnewChannel.bmml%26bm%3BnewChannel.bmml%2CnewPodcast%26bm%3BnewPodcast.bmml%26bm%3BnewPodcast.bmml%26bm%3BnewPodcast.bmml%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2230%2C155%2C139%2C184%22%20href%3D%22newChannel.bmml%22%20alt%3D%22newChannel%22%20id%3D%223_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22141%2C155%2C250%2C184%22%20href%3D%22newPodcast.bmml%22%20alt%3D%22newPodcast%22%20id%3D%223_1%22/%3E%0A</map>
+        <selectedIndex>1</selectedIndex>
+        <text>New%20Channel%2C%20New%20Podcast%2C%20Sync%20Podcast</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="267" y="220" w="-1" h="-1" measuredW="137" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs/>
+        <text>Home%2C%20New%20Podcast</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="946" y="292" w="288" h="155" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="961" y="359" w="-1" h="-1" measuredW="113" measuredH="30" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>FolderIcon%7Csmall</icon>
+        <text>Choose%20file</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextInput" x="1074" y="361" w="142" h="-1" measuredW="109" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>No%20file%20choosen...</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="1103" y="405" w="-1" h="-1" measuredW="113" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Upload%20Podcast</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::PointyButton" x="961" y="311" w="70" h="-1" measuredW="65" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>right</direction>
+        <text>Channel</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::ComboBox" x="1037" y="311" w="179" h="-1" measuredW="99" measuredH="48" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Mucho%20Beat%0ALow%20Beats</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::LinkBar" x="961" y="130" w="-1" h="-1" measuredW="281" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>PodcastAdmin%26bm%3BPodcastAdmin.bmml%26bm%3BPodcastAdmin.bmml%26bm%3BPodcastAdmin.bmml%2C%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22724%2C95%2C762%2C116%22%20href%3D%22PodcastAdmin.bmml%22%20alt%3D%22PodcastAdmin%22%20id%3D%2213_0%22/%3E%0A</map>
+        <selectedIndex>-1</selectedIndex>
+        <text>Home%2C%20Web%20site%2C%20Shop%2C%20Blog%2C%20Logout</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::SearchBox" x="961" y="180" w="285" h="-1" measuredW="113" measuredH="25" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search%20podcast</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Canvas" x="267" y="249" w="549" h="517" measuredW="100" measuredH="70" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="276" y="256" w="-1" h="-1" measuredW="36" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Title%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Label" x="276" y="285" w="-1" h="-1" measuredW="61" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Author%28s%29%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Label" x="276" y="420" w="-1" h="-1" measuredW="52" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Subtitle%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="276" y="449" w="-1" h="-1" measuredW="63" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Summary%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="276" y="571" w="-1" h="-1" measuredW="98" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Publication%20date%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="276" y="604" w="-1" h="-1" measuredW="38" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tags%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextInput" x="404" y="258" w="370" h="-1" measuredW="79" measuredH="27" zOrder="19" locked="false" isInGroup="-1"/>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="404" y="287" w="-1" h="-1" measuredW="116" measuredH="84" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5Bx%5D%20Dj%20Agustin%0A%5Bx%5D%20Dj%20Migue%20Soria%0A%5Bx%5D%20Dj%20Matt%0A%5Bx%5D%20Marcela%20Saiffe</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::TextInput" x="404" y="420" w="370" h="-1" measuredW="79" measuredH="27" zOrder="21" locked="false" isInGroup="-1"/>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextArea" x="404" y="451" w="370" h="105" measuredW="200" measuredH="140" zOrder="22" locked="false" isInGroup="-1"/>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::DateChooser" x="404" y="569" w="-1" h="-1" measuredW="157" measuredH="25" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%2020%20/%20Feb%20/%202012%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::TextArea" x="404" y="604" w="370" h="57" measuredW="200" measuredH="140" zOrder="24" locked="false" isInGroup="-1"/>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Button" x="404" y="676" w="-1" h="-1" measuredW="113" measuredH="30" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>FolderIcon%7Csmall</icon>
+        <text>Choose%20file</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::TextInput" x="517" y="678" w="142" h="-1" measuredW="109" measuredH="27" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>No%20file%20choosen...</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="276" y="676" w="-1" h="-1" measuredW="43" measuredH="21" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Media%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Button" x="659" y="728" w="-1" h="-1" measuredW="116" measuredH="27" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Create%20Podcast</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Label" x="928" y="254" w="-1" h="-1" measuredW="318" measuredH="24" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Shortcut%20to%20New%20Podcast%20%28MP3%20with%20full%20tags%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::ComboBox" x="404" y="371" w="179" h="-1" measuredW="99" measuredH="48" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Mucho%20Beat%0ALow%20Beats</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="276" y="371" w="-1" h="-1" measuredW="55" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Channel%3A</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
