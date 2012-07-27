@@ -1,0 +1,32 @@
+channel:
+  actAs:  { Timestampable: ~ }
+  columns:
+    title:        { type: string(255), notnull: true }
+    subtitle:     { type: string(255), notnull: true }
+    author:       { type: string(60), notnull: true }
+    summary:      { type: string(600), notnull: true }
+    description:  { type: string(4000), notnull: true }
+    category:     { type: string(40), notnull: true }
+    image:        { type: string(255), notnull: true }
+    link:         { type: string(255), notnull: true }
+    language:     { type: string(40), notnull: true }
+    copyright:    { type: string(255), notnull: true }
+    explicit:     { type: boolean, notnull: true, default: 0 }
+
+item:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      fields: [title]
+  columns:
+    title:        { type: string(255), notnull: true }
+    subtitle:     { type: string(255), notnull: true }
+    author:       { type: string(60), notnull: true }
+    summary:      { type: string(600), notnull: true }
+    image:        { type: string(255), notnull: true }
+    url:          { type: string(255), notnull: true }
+    lenght:       { type: integer, notnull: true }
+    type:         { type: enum, values: [ "audio/mpeg", "video/mp4" ], default: "audio/mpeg" }
+    pub_date:     { type: timestamp, notnull: true }
+    duration:     { type: string(16), notnull: true }
+    keywords:     { type: string(255), notnull: true, default: "muchobeat, mucho beat, music" } 

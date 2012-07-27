@@ -8,3 +8,7 @@ all:
       dsn:      mysql:host=localhost;dbname=podcastadmin
       username: root
       password: 
+      attributes:                  
+         use_native_enum: true
+         default_table_collate: utf8_general_ci
+         default_table_charset: utf8
