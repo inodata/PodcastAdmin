@@ -29,4 +29,9 @@ item:
     type:         { type: enum, values: [ "audio/mpeg", "video/mp4" ], default: "audio/mpeg" }
     pub_date:     { type: timestamp, notnull: true }
     duration:     { type: string(16), notnull: true }
-    keywords:     { type: string(255), notnull: true, default: "muchobeat, mucho beat, music" } 
+    keywords:     { type: string(255), notnull: true, default: "muchobeat, mucho beat, music" }
+  relations:
+    Channel:
+      class:  channel
+      local:  item_id
+      onDelete: CASCADE

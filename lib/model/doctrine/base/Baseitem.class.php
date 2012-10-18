@@ -16,6 +16,7 @@
  * @property timestamp $pub_date
  * @property string $duration
  * @property string $keywords
+ * @property channel $Channel
  * 
  * @method string    getTitle()    Returns the current record's "title" value
  * @method string    getSubtitle() Returns the current record's "subtitle" value
@@ -28,6 +29,7 @@
  * @method timestamp getPubDate()  Returns the current record's "pub_date" value
  * @method string    getDuration() Returns the current record's "duration" value
  * @method string    getKeywords() Returns the current record's "keywords" value
+ * @method channel   getChannel()  Returns the current record's "Channel" value
  * @method item      setTitle()    Sets the current record's "title" value
  * @method item      setSubtitle() Sets the current record's "subtitle" value
  * @method item      setAuthor()   Sets the current record's "author" value
@@ -39,6 +41,7 @@
  * @method item      setPubDate()  Sets the current record's "pub_date" value
  * @method item      setDuration() Sets the current record's "duration" value
  * @method item      setKeywords() Sets the current record's "keywords" value
+ * @method item      setChannel()  Sets the current record's "Channel" value
  * 
  * @package    podcastadmin
  * @subpackage model
@@ -113,6 +116,11 @@ abstract class Baseitem extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasOne('channel as Channel', array(
+             'local' => 'item_id',
+             'foreign' => 'id',
+             'onDelete' => 'CASCADE'));
+
         $timestampable0 = new Doctrine_Template_Timestampable();
         $sluggable0 = new Doctrine_Template_Sluggable(array(
              'fields' => 
