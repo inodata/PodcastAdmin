@@ -1,21 +1,22 @@
 <?php
 
 /**
- * item form base class.
+ * Item form base class.
  *
- * @method item getObject() Returns the current form's model object
+ * @method Item getObject() Returns the current form's model object
  *
  * @package    podcastadmin
  * @subpackage form
  * @author     Enrique Garcia <enrique@inodata.com.mx>
  * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 29553 2010-05-20 14:33:00Z Kris.Wallsmith $
  */
-abstract class BaseitemForm extends BaseFormDoctrine
+abstract class BaseItemForm extends BaseFormDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
       'id'         => new sfWidgetFormInputHidden(),
+      'channel_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Channel'), 'add_empty' => false)),
       'title'      => new sfWidgetFormInputText(),
       'subtitle'   => new sfWidgetFormInputText(),
       'author'     => new sfWidgetFormInputText(),
@@ -34,6 +35,7 @@ abstract class BaseitemForm extends BaseFormDoctrine
 
     $this->setValidators(array(
       'id'         => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
+      'channel_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Channel'))),
       'title'      => new sfValidatorString(array('max_length' => 255)),
       'subtitle'   => new sfValidatorString(array('max_length' => 255)),
       'author'     => new sfValidatorString(array('max_length' => 60)),
@@ -51,7 +53,7 @@ abstract class BaseitemForm extends BaseFormDoctrine
     ));
 
     $this->validatorSchema->setPostValidator(
-      new sfValidatorDoctrineUnique(array('model' => 'item', 'column' => array('slug')))
+      new sfValidatorDoctrineUnique(array('model' => 'Item', 'column' => array('slug')))
     );
 
     $this->widgetSchema->setNameFormat('item[%s]');
@@ -65,7 +67,7 @@ abstract class BaseitemForm extends BaseFormDoctrine
 
   public function getModelName()
   {
-    return 'item';
+    return 'Item';
   }
 
 }

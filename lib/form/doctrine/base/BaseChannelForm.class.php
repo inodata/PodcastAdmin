@@ -1,16 +1,16 @@
 <?php
 
 /**
- * channel form base class.
+ * Channel form base class.
  *
- * @method channel getObject() Returns the current form's model object
+ * @method Channel getObject() Returns the current form's model object
  *
  * @package    podcastadmin
  * @subpackage form
  * @author     Enrique Garcia <enrique@inodata.com.mx>
  * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 29553 2010-05-20 14:33:00Z Kris.Wallsmith $
  */
-abstract class BasechannelForm extends BaseFormDoctrine
+abstract class BaseChannelForm extends BaseFormDoctrine
 {
   public function setup()
   {
@@ -59,7 +59,7 @@ abstract class BasechannelForm extends BaseFormDoctrine
 
   public function getModelName()
   {
-    return 'channel';
+    return 'Channel';
   }
 
 }

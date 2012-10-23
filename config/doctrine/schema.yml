@@ -1,4 +1,4 @@
-channel:
+Channel:
   actAs:  { Timestampable: ~ }
   columns:
     title:        { type: string(255), notnull: true }
@@ -13,12 +13,13 @@ channel:
     copyright:    { type: string(255), notnull: true }
     explicit:     { type: boolean, notnull: true, default: 0 }
 
-item:
+Item:
   actAs:
     Timestampable: ~
     Sluggable:
       fields: [title]
   columns:
+    channel_id:   { type: integer, notnull: true }
     title:        { type: string(255), notnull: true }
     subtitle:     { type: string(255), notnull: true }
     author:       { type: string(60), notnull: true }
@@ -32,6 +33,8 @@ item:
     keywords:     { type: string(255), notnull: true, default: "muchobeat, mucho beat, music" }
   relations:
     Channel:
-      class:  channel
-      local:  item_id
+      class:    Channel
+      local:    channel_id
+      foreign:  id
       onDelete: CASCADE
+      foreignAlias: Items

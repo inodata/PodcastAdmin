@@ -4,6 +4,7 @@
 /log/*
 /web/uploads/*
 /web/podcasts/*
+/doc/*.bak
 
 # eclipse files #
 .settings

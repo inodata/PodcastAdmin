@@ -1,14 +1,14 @@
 <?php
 
 /**
- * channel filter form base class.
+ * Channel filter form base class.
  *
  * @package    podcastadmin
  * @subpackage filter
  * @author     Enrique Garcia <enrique@inodata.com.mx>
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 29570 2010-05-21 14:49:47Z Kris.Wallsmith $
  */
-abstract class BasechannelFormFilter extends BaseFormFilterDoctrine
+abstract class BaseChannelFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
@@ -55,7 +55,7 @@ abstract class BasechannelFormFilter extends BaseFormFilterDoctrine
 
   public function getModelName()
   {
-    return 'channel';
+    return 'Channel';
   }
 
   public function getFields()

@@ -1,18 +1,19 @@
 <?php
 
 /**
- * item filter form base class.
+ * Item filter form base class.
  *
  * @package    podcastadmin
  * @subpackage filter
  * @author     Enrique Garcia <enrique@inodata.com.mx>
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 29570 2010-05-21 14:49:47Z Kris.Wallsmith $
  */
-abstract class BaseitemFormFilter extends BaseFormFilterDoctrine
+abstract class BaseItemFormFilter extends BaseFormFilterDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
+      'channel_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Channel'), 'add_empty' => true)),
       'title'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'subtitle'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'author'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
@@ -30,6 +31,7 @@ abstract class BaseitemFormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
+      'channel_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Channel'), 'column' => 'id')),
       'title'      => new sfValidatorPass(array('required' => false)),
       'subtitle'   => new sfValidatorPass(array('required' => false)),
       'author'     => new sfValidatorPass(array('required' => false)),
@@ -57,13 +59,14 @@ abstract class BaseitemFormFilter extends BaseFormFilterDoctrine
 
   public function getModelName()
   {
-    return 'item';
+    return 'Item';
   }
 
   public function getFields()
   {
     return array(
       'id'         => 'Number',
+      'channel_id' => 'ForeignKey',
       'title'      => 'Text',
       'subtitle'   => 'Text',
       'author'     => 'Text',

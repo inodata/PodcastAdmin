@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>Mucho Beat by Fajita Studio</title>
+		<link>http://www.muchobeat.com</link>
+		<language>es-mx</language>
+		<copyright>&#x2117; &amp; &#xA9; 2010 Fajita Studio</copyright>
+		<itunes:subtitle>Muchobeat el Mixshow</itunes:subtitle>
+		<itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+		<itunes:summary>Mucho Beat es un programa de radio con mucha musica electronica conducido por Dj Agustin, con novedades en música electrónica, tecnología para djs y productores, Noticias con Marcela saiffe, sesiones mezcladas con nuestros djs residentes, Dj Agustin Dj Migue Soria y Dj Matt y agenda de eventos internacionales, escuchanos cada fin de semana.</itunes:summary>
+		<description>Mucho Beat es un programa de radio con mucha musica electronica conducido por Dj Agustin, con novedades en música electrónica, tecnología para djs y productores, Noticias con Marcela saiffe, sesiones mezcladas con nuestros djs residentes, Dj Agustin Dj Migue Soria y Dj Matt y agenda de eventos internacionales, escuchanos cada fin de semana.</description>
+		<itunes:owner>
+			<itunes:name>Agustin Sanchez</itunes:name>
+			<itunes:email>info@muchobeat.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>yes</itunes:explicit>
+		<itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+		<itunes:category text="Music" />
+		<item>
+			<title>Mucho Beat #1</title>
+			<itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+			<itunes:subtitle>Empezando a tirar mucho beat</itunes:subtitle>
+			<itunes:summary>Esta semana ponemos play a las tornamesas y subimos el volumen a tope en el mixer, con esto empieza el primer mixshow con mucho beat!</itunes:summary>
+			<itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+			<enclosure url="http://muchobeat.com/mp3/01-muchobeat1.mp3" length="98613750" type="audio/mpeg" />
+			<guid>http://muchobeat.com/mp3/01-muchobeat1.mp3</guid>
+			<pubDate>Thu, 2 Dec 2010 22:00:00 -0600</pubDate>
+			<itunes:duration>1:42:43</itunes:duration>
+			<itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+		</item>
+		<item>
+      <title>Mucho Beat #2</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/02-muchobeat2.mp3" length="103495949" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/02-muchobeat2.mp3</guid>
+      <pubDate>Thu, 9 Dec 2010 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:34</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #3</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/03-muchobeat3.mp3" length="251500695" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/03-muchobeat3.mp3</guid>
+      <pubDate>Thu, 16 Dec 2010 22:00:00 -0600</pubDate>
+      <itunes:duration>1:44:47</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #4</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/04-muchobeat4.mp3" length="102574749" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/04-muchobeat4.mp3</guid>
+      <pubDate>Thu, 23 Dec 2010 22:00:00 -0600</pubDate>
+      <itunes:duration>1:46:51</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #5</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/05-muchobeat5.mp3" length="98396820" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/05-muchobeat5.mp3</guid>
+      <pubDate>Thu, 30 Dec 2010 22:00:00 -0600</pubDate>
+      <itunes:duration>1:42:30</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #6</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/06-muchobeat6.mp3" length="104299658" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/06-muchobeat6.mp3</guid>
+      <pubDate>Thu, 6 Jan 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:39</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #7</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/07-muchobeat7.mp3" length="103674391" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/07-muchobeat7.mp3</guid>
+      <pubDate>Thu, 13 Jan 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:00</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #8</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/08-muchobeat8.mp3" length="104295478" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/08-muchobeat8.mp3</guid>
+      <pubDate>Thu, 20 Jan 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:38</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #9</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/09-muchobeat9.mp3" length="100939266" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/09-muchobeat9.mp3</guid>
+      <pubDate>Thu, 27 Jan 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:09</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #10</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/10-muchobeat10.mp3" length="101441654" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/10-muchobeat10.mp3</guid>
+      <pubDate>Thu, 3 Feb 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:40</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #11</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/11-muchobeat11.mp3" length="101388573" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/11-muchobeat11.mp3</guid>
+      <pubDate>Thu, 10 Feb 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:37</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #12</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/12-muchobeat12.mp3" length="98640909" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/12-muchobeat12.mp3</guid>
+      <pubDate>Thu, 17 Feb 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:42:45</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item><item>
+      <title>Mucho Beat #13</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/13-muchobeat13.mp3" length="101459626" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/13-muchobeat13.mp3</guid>
+      <pubDate>Thu, 24 Feb 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:41</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #14</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/14-muchobeat14.mp3" length="101507273" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/14-muchobeat14.mp3</guid>
+      <pubDate>Thu, 3 Mar 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:44</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #15</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/15-muchobeat15.mp3" length="101304563" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/15-muchobeat15.mp3</guid>
+      <pubDate>Thu, 10 Mar 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:31</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #16</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/16-muchobeat16.mp3" length="100254235" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/16-muchobeat16.mp3</guid>
+      <pubDate>Thu, 17 Mar 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:44:26</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #17</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/17-muchobeat17.mp3" length="100992769" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/17-muchobeat17.mp3</guid>
+      <pubDate>Thu, 24 Mar 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:12</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #18</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/18-muchobeat18.mp3" length="97424651" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/18-muchobeat18.mp3</guid>
+      <pubDate>Thu, 31 Mar 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:41:29</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #19</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/19-muchobeat19.mp3" length="99231071" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/19-muchobeat19.mp3</guid>
+      <pubDate>Thu, 7 Apr 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:43:22</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #20</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/20-muchobeat20.mp3" length="101056716" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/20-muchobeat20.mp3</guid>
+      <pubDate>Thu, 14 Apr 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:16</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #21</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/21-muchobeat21.mp3" length="103606267" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/21-muchobeat21.mp3</guid>
+      <pubDate>Thu, 21 Apr 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:55</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+			<title>Mucho Beat #22</title>
+			<itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+			<itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+			<itunes:summary>Esta semana en las tornamesas nuestros DJ's anfitriones tirando mucho beat electro</itunes:summary>
+			<itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+			<enclosure url="http://muchobeat.com/mp3/22-muchobeat22.mp3" length="97758600" type="audio/mpeg" />
+			<guid>http://muchobeat.com/mp3/22-muchobeat22.mp3</guid>
+			<pubDate>Thu, 28 Apr 2011 22:00:00 -0600</pubDate>
+			<itunes:duration>1:41:50</itunes:duration>
+			<itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+		</item>
+    <item>
+      <title>Mucho Beat #23: Regresando de vacaciones con todas las pilas puestas</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Para todos los gustosos de los beats bien "puercos" esta semana Dj Agustin nos complace con un set de Dirty Duch Electro Maton!</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/23-muchobeat23.mp3" length="104338114" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/23-muchobeat23.mp3</guid>
+      <pubDate>Thu, 12 May 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:40</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #24: Preparandonos para la fiesta</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House, Progressive House...</itunes:subtitle>
+      <itunes:summary>Proxima semana hay fiesta y este solo es un previo de lo que habra en el segundo aniversario de Fajita Studio</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/24-muchobeat24.mp3" length="103966130" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/24-muchobeat24.mp3</guid>
+      <pubDate>Thu, 19 May 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:17</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #25: Especial de aniversario</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>La edicion de esta semana es un especial por el 2o. aniversario de Fajita Studio, la birthday party de Dj Agustin y no pueden faltar los beats de cada semana a cargo de nuestros DJ's anfitriones</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/25-muchobeat25.mp3" length="104813334" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/25-muchobeat25.mp3</guid>
+      <pubDate>Thu, 26 May 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:49:10</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #26: Recordando viejos tiempos</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta semana el programa se divide en dos bloques y nos hace recordar los viejos tiempos con remixes excelentes de dance y euro house de los 90s</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/26-muchobeat26.mp3" length="101577798" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/26-muchobeat26.mp3</guid>
+      <pubDate>Thu, 2 Jun 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:43</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #27: Informando de los próximos cursos de dj</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta semana estrenamos rolas de fedde le grand y Swedish House Mafia</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/27-muchobeat27.mp3" length="101279038" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/27-muchobeat27.mp3</guid>
+      <pubDate>Thu, 9 Jun 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:42:25</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #28: Sumando descargas, unete al fenomeno y disfruta!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta semana empezamos con un potente set de la mano de DJ Agustin y ya para el final la noche esto se pone mas bueno con un poco progressive house rematando con unas vocales bien colocadas. Asi que, descargalo y disfruta</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/28-muchobeat28.mp3" length="101613856" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/28-muchobeat28.mp3</guid>
+      <pubDate>Thu, 16 Jun 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:50</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #29: A mucho calor, Muchobeat fresco!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Preparandonos con beats bien fresquesitos para este verano que promete ser muy intenso y ademas, ya sabes que es Funky Fat Mixes? descargalo y enterate!</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/29-muchobeat29.mp3" length="102011753" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/29-muchobeat29.mp3</guid>
+      <pubDate>Thu, 23 Jun 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:46:15</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #30: Nuevos lanzamientos, nuevos beats!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>En esta edición se entrenan los nuevos lanzamientos de las distintas casas disqueras, esto solo es sinónimo de que tenemos mucho beat nuevo, disfrutalos!</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/30-muchobeat30.mp3" length="100073510" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/30-muchobeat30.mp3</guid>
+      <pubDate>Thu, 30 Jun 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:44:11</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #31: Llueva, truene o relapaguee Mucho Beat sigue sonando.</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Con bebida caliente en mano, ponte comodo y preparate para escuchar los beats de esta semana que se ponen un tanto retro y como siempre solo la mejor selección para ti.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/31-muchobeat31.mp3" length="98962574" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/31-muchobeat31.mp3</guid>
+      <pubDate>Thu, 06 Jul 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:43:01</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #32: Quieres mucho beat? escucha este podcast y disfrutalo.</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta semana nada vale mas que escuchar estos sets increíbles de las manos de los talentosos DJ´s anfitriones: Dj Agustin, Dj Migue Soria, Dj Matt Cianceruso.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/32-muchobeat32.mp3" length="105640726" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/32-muchobeat32.mp3</guid>
+      <pubDate>Thu, 07 Jul 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:49:59</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #33: Muchos estrenos, muchas noticias, mucho beat!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Muchos estrenos por parte de Dj Agustin, Dj Migue Soria y muchas nocitias de la voz de  Marcela Saiffe que en esta semana nos trae noticias fresquesitas de Tiësto, escucha y disfruta mucho beat</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/33-muchobeat33.mp3" length="102406976" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/33-muchobeat33.mp3</guid>
+      <pubDate>Thu, 14 Jul 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:46:36</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #34: Los beats mas ruidosos de la semana</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta semana todo el poder de los beats de las manos de nuestros ya acostumbrados anfitriones (Dj Agustin, Dj Matt y Dj Migue Soria) y claro, no pueden faltar las noticias de la semana con Marcela Saiffe </itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/34-muchobeat34.mp3" length="104462664" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/34-muchobeat34.mp3</guid>
+      <pubDate>Thu, 21 Jul 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:49</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #35: Simplemente Mucho Beat</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>No hay mucho que decir, pero si mucho que escuchar y disfrutar, mucho beat is in da house!</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/35-muchobeat35.mp3" length="103448277" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/35-muchobeat35.mp3</guid>
+      <pubDate>Thu, 04 Aug 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:47</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #36: Veraneando "cool" con Mucho Beat!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta semana la cosa se pone como el verano, tenemos mucho electro impactacten, un dubstep bien harmonico y porsupuesto unos remixes super cool para seguir disfrutando del verano y una bebida bien fria!</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/36-muchobeat36.mp3" length="97196694" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/36-muchobeat36.mp3</guid>
+      <pubDate>Thu, 11 Aug 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:41:11</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #37: De regreso a la escuela...?</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Regresaste a la escuela, tienes tareas, gente nueva, maestros nuevos y no sabes ni que p3d0? Mucho Beat te ayuda esta semana a olvidarte de todo y te pone a disfrutar de la mejor musica electronica.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/37-muchobeat37.mp3" length="104087336" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/37-muchobeat37.mp3</guid>
+      <pubDate>Thu, 18 Aug 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:25</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #38: Nuevos lanzamientos</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Como cada semana Dj Agustin, Dj Migue Soria y Dj Matt nos presentan las mas versatiles rolas, en Mucho Beat no se repiten si no es necesario asi que a disfrutar.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/38-muchobeat38.mp3" length="100764420" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/38-muchobeat38.mp3</guid>
+      <pubDate>Thu, 18 Aug 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:44:51</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #39: Talento local, claro que hay.</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta semana tenemos en el programa un buen talento local, sigue escuchando y checalo tu mismo, ademas tenemos noticias de Ministry of Sound con Marcela Saiffe</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/39-muchobeat39.mp3" length="99442415" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/39-muchobeat39.mp3</guid>
+      <pubDate>Thu, 25 Aug 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:43:29</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #40: Festivales en Monterrey </title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta semana habra muchos festivales y aqui te vas a enterar de todo, escucha este podcast y preparate para el fin de semana.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/40-muchobeat40.mp3" length="99985762" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/40-muchobeat40.mp3</guid>
+      <pubDate>Thu, 1 Sep 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:44:03</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #41: Dj Fest!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Descarga este podcast y escucha parte de lo que sono en el DJ FEST en Monterrey.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/41-muchobeat41.mp3" length="91761161" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/41-muchobeat41.mp3</guid>
+      <pubDate>Thu, 8 Sep 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:35:29</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #42: Siempre fresco, asi es Mucho Beat</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta semana con unos sets con electro bastante potentes y ademas noticias de Native Instruments con Marcela Saiffe</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/42-muchobeat42.mp3" length="103532707" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/42-muchobeat42.mp3</guid>
+      <pubDate>Thu, 15 Sep 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:50</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #43: Mucho Beat suena bien fuerte</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Buena musica, House fresco y sabroso, novedades de Pioneer y Daft Punk, todo esto y mas en este podcast.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/43-muchobeat43.mp3" length="102417591" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/43-muchobeat43.mp3</guid>
+      <pubDate>Thu, 22 Sep 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:46:40</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #44: Mucho Beat recargado!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Novedades, eventos especiales, mucha musica nueva, deja de leer, subele al volumen y disfruta Mucho Beat</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/44-muchobeat44.mp3" length="105369217" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/44-muchobeat44.mp3</guid>
+      <pubDate>Thu, 29 Sep 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:49:45</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #45: House, house, house y mas electro house</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Quieres house? este podcast te va a encantar, disfrutalo!</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/45-muchobeat45.mp3" length="107242928" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/45-muchobeat45.mp3</guid>
+      <pubDate>Thu, 6 Oct 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:51:42</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #46: Pasion por la musica, es parte de Mucho Beat</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Novedades de Pioneer, noticias de Moby y por supuesto mucha musica en este podcast.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/46-muchobeat46.mp3" length="97922020" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/46-muchobeat46.mp3</guid>
+      <pubDate>Thu, 13 Oct 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:41:49</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #47: Mucho Halloween, Mucho Beat</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Semana de muchas fiestas de Halloween, semana de Mucho Beat.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/47-muchobeat47.mp3" length="111541221" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/47-muchobeat47.mp3</guid>
+      <pubDate>Thu, 03 Nov 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:56:11</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #48: Donde hay buenas noticias, hay Mucho Beat</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Marcela Saiffe nos trae noticias del top 100 en DJ Mag, noticias de Ministry of Sound y por supuesto los infalibles beats de nuestros anfritriones.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/48-muchobeat48.mp3" length="97962562" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/48-muchobeat48.mp3</guid>
+      <pubDate>Thu, 10 Nov 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:42:02</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #49: Musica, musica y mas musica!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Si quieres mucha musica nueva este programa te va a encantar, para de leer y empieza a descargar y disfrutar esta edicion de Mucho Beat.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/49-muchobeat49.mp3" length="95742363" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/49-muchobeat49.mp3</guid>
+      <pubDate>Thu, 17 Nov 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:39:43</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #50: Casi navidad, Mucho Beat esta presente!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Fiestas decembrinas = atascarse de comida, Mucho Beat = atascarse de buena musica.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/50-muchobeat50.mp3" length="101351192" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/50-muchobeat50.mp3</guid>
+      <pubDate>Thu, 24 Nov 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:13</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #51: Entrando a la recta final</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Este programa trae los mejores mixes para empezar a cerrar el ciclo con Mucho Beat, que esperas? a disfrutar!.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/51-muchobeat51.mp3" length="99958970" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/51-muchobeat51.mp3</guid>
+      <pubDate>Thu, 01 Dec 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:43:46</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #52: 1er. aniversario!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Muchos regalos, mucha fiesta, mucha mas musica, esto es Mucho Beat en su primer aniversario.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/52-muchobeat52.mp3" length="103067936" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/52-muchobeat52.mp3</guid>
+      <pubDate>Thu, 08 Dec 2011 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:21</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #53: Estrenando nuevo año, estrenando nueva música!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Empezamos un nuevo año de Mucho Beat y también mucha nueva música disfruta!</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/53-muchobeat53.mp3" length="101142816" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/53-muchobeat53.mp3</guid>
+      <pubDate>Thu, 05 Jan 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:21</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #54: Nuevo EP</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta edición trae muchas novedades y el anuncio del nuevo EP para que lo descargues.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/54-muchobeat54.mp3" length="99152076" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/54-muchobeat54.mp3</guid>
+      <pubDate>Thu, 12 Jan 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:43:16</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #55: Mix tape maton, Invierno 2011-2012</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta edición esucharas el mixtape de invierno, seguimos con clima frio, pero con Mucho Beat calientito.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/55-muchobeat55.mp3" length="103235120" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/55-muchobeat55.mp3</guid>
+      <pubDate>Thu, 19 Jan 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:32</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #56: Mix tape maton, Invierno 2011-2012 (2a. parte)</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta edición esucharas el mixtape de invierno, la segunda parte para que no te la pierdas.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/56-muchobeat56.mp3" length="103234332" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/56-muchobeat56.mp3</guid>
+      <pubDate>Thu, 26 Jan 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:32</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #57: Nueva musica y muchos premios</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Para nuestros radioescuchas tenemos muchas sorpresas.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/57-muchobeat57.mp3" length="96966986" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/57-muchobeat57.mp3</guid>
+      <pubDate>Thu, 02 Feb 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:41:00</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #58: 120 minutos de la mejor musica electronica</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Como cada semana estremanos nueva musica para ti, disfrutala.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/58-muchobeat58.mp3" length="104120357" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/58-muchobeat58.mp3</guid>
+      <pubDate>Thu, 09 Feb 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:27</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #59: Hay Chihuahua aqui vamos!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Bienvenidos radioescuchas de Chihuahua, ya estamos aqui disfruta de buena musica cada semana!.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/59-muchobeat59.mp3" length="103616298" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/59-muchobeat59.mp3</guid>
+      <pubDate>Thu, 16 Feb 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:55</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    
+    <item>
+      <title>Mucho Beat #60: Craftwerk!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>En esta edicion noticias del regreso de Craftwerk, estate pendiente y a disfrutar!.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/60-muchobeat60.mp3" length="102524589" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/60-muchobeat60.mp3</guid>
+      <pubDate>Thu, 23 Feb 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:46:47</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #61: Ultra Music Festival</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta edicion te contamos de la nueva pelicula de este gran festival en Miami.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/61-muchobeat61.mp3" length="97287142" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/61-muchobeat61.mp3</guid>
+      <pubDate>Thu, 1 Mar 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:41:20</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #62: Beats Lentos, pero poderosos</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Empezamos esta edicion con una serie de rolas "tranquilas", pero bastante potentes.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/62-muchobeat62.mp3" length="98268093" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/62-muchobeat62.mp3</guid>
+      <pubDate>Thu, 8 Mar 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:42:21</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #63: Nueva ubicacion, nueva musica!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Despues de un par de semanas de ausencia estamos de vuelta recargados.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/63-muchobeat63.mp3" length="85269979" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/63-muchobeat63.mp3</guid>
+      <pubDate>Thu, 29 Mar 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:28:49</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #64: iPad 4G?</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Ademas de mucha y nueva musica enterate de si te conviene adquirir un iPad 4G en Mexico.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/64-muchobeat64.mp3" length="103470849" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/64-muchobeat64.mp3</guid>
+      <pubDate>Thu, 5 Apr 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:46</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #65: Electro &amp; Dubstep!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Sucio como el mismo, les presentamos electro &amp; Dubstep fresquesitos!</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/65-muchobeat65.mp3" length="103616298" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/65-muchobeat65.mp3</guid>
+      <pubDate>Thu, 12 Apr 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:44:46</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #66: Mars Volta estrenando disco.</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Enterate del nuevo disco de Mars Volta</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/66-muchobeat66.mp3" length="100288089" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/66-muchobeat66.mp3</guid>
+      <pubDate>Thu, 19 Apr 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:44:27</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #67: Relajate, escucha y disfruta</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Ya esta aqui una nueva edicion de Mucho Beat y no olvides Mucho Beat TV todos los martes en punto de las 8pm via muchobeat.com</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/67-muchobeat67.mp3" length="101234767" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/67-muchobeat67.mp3</guid>
+      <pubDate>Thu, 26 Apr 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:27</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #68: Dia de las madres, dia de Mucho Beat</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Este dia de las madres, disfruta esta edicion porque sabemos que aqui tambien hay madrecitas escuchandonos</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/68-muchobeat68.mp3" length="102227838" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/68-muchobeat68.mp3</guid>
+      <pubDate>Thu, 10 May 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:46:29</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #69: Donna Summer, una gran perdida.</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Hoy rendimos tributo a esta excelente y respetable interprete, disfrutalo!</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/69-muchobeat69.mp3" length="94160808" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/69-muchobeat69.mp3</guid>
+      <pubDate>Thu, 17 May 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:38:04</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #70: Buena Musica + Estrenos = Mucho Beat</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Pura musica nueva, pura musica buena, Mucho Beat puro.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/70-muchobeat70.mp3" length="96747557" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/70-muchobeat70.mp3</guid>
+      <pubDate>Thu, 24 May 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:40:46</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #71: Snoop Dog produciendo nuevo disco?</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Enterate de lo que traen en manos Diplo y Snoop dog.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/71-muchobeat71.mp3" length="95567240" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/71-muchobeat71.mp3</guid>
+      <pubDate>Thu, 31 May 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:39:32</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #72: Skrillex y Tiësto, los ricos de la escena.</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Mucha musica como siempre y en las noticias enterate del trabajo de Skrillex y Tiësto.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/72-muchobeat72.mp3" length="104000821" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/72-muchobeat72.mp3</guid>
+      <pubDate>Thu, 07 Jun 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:19</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #73: Armin van Buuren excelente carrera</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Enterate de como Armin van Buuren se ha posicionado como el Dj No. 2 en la lista mundial y como se ha mantenido en el top.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/73-muchobeat73.mp3" length="101340929" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/73-muchobeat73.mp3</guid>
+      <pubDate>Thu, 14 Jun 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:31</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #74: House Music Time!</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta edicion esta llena de house para disfrutar con el trago de tu preferencia.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/74-muchobeat74.mp3" length="103394780" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/74-muchobeat74.mp3</guid>
+      <pubDate>Thu, 21 Jun 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:47:41</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #75: Steve Angello, la polemica.</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Disfruta de toda esta musica y enterate de la polemica causada por Steve Angello.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/75-muchobeat75.mp3" length="104039691" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/75-muchobeat75.mp3</guid>
+      <pubDate>Thu, 28 Jun 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:22</itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #76: Vacaciones Mucho Beat</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Ya todos se van de vacaciones, pero antes les dejamos esta semana con estos sets de musica nuevecita para que se pongan a brincar en sus fiestas.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/76-muchobeat76.mp3" length="100799671" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/76-muchobeat76.mp3</guid>
+      <pubDate>Thu, 5 Jul 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:44:59 </itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #77: Skrillex y Deadmau5 dando noticias.</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Noticias de estos DJs/productores (Skrillex y Deadmau5) que estan dando mucho de que hablar.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/77-muchobeat77.mp3" length="100985245" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/77-muchobeat77.mp3</guid>
+      <pubDate>Thu, 12 Jul 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:45:11 </itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #78: Swedish House Mafia </title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Polemica en la presentacion de Swedish House Mafia, enterate de esto y mas.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/78-muchobeat78.mp3" length="99862607" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/78-muchobeat78.mp3</guid>
+      <pubDate>Thu, 19 Jul 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:44:01 </itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #79: Pura musica</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>Esta edicion disfruta de un super set de musica nueva.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/79-muchobeat79.mp3" length="94573751" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/79-muchobeat79.mp3</guid>
+      <pubDate>Thu, 26 Jul 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:38:30 </itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #80: Verano sabroso</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>A mitad periodo vacacional disfruta esta recopilacion de musica mezclada que es lo mejor y solo lo encuentras aqui.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/80-muchobeat80.mp3" length="107181490" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/80-muchobeat80.mp3</guid>
+      <pubDate>Thu, 2 Aug 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:51:38 </itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+    <item>
+      <title>Mucho Beat #81: Epoca de Pool Party</title>
+      <itunes:author>Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe</itunes:author>
+      <itunes:subtitle>Electro, Electro House</itunes:subtitle>
+      <itunes:summary>En esta temporada una pool party es lo mejor, pero mientras llega el momento de una disfruta esta edicion.</itunes:summary>
+      <itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+      <enclosure url="http://muchobeat.com/mp3/81-muchobeat81.mp3" length="104618147" type="audio/mpeg" />
+      <guid>http://muchobeat.com/mp3/81-muchobeat81.mp3</guid>
+      <pubDate>Thu, 9 Jul 2012 22:00:00 -0600</pubDate>
+      <itunes:duration>1:48:54 </itunes:duration>
+      <itunes:keywords>news, mucho beat, electro house, house, house music</itunes:keywords>
+    </item>
+  </channel>
+</rss>
