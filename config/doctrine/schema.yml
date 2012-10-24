@@ -36,5 +36,7 @@ Item:
       class:    Channel
       local:    channel_id
       foreign:  id
+      type: many
+      foreignType: one
       onDelete: CASCADE
       foreignAlias: Items

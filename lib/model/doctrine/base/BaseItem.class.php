@@ -17,34 +17,34 @@
  * @property timestamp $pub_date
  * @property string $duration
  * @property string $keywords
- * @property Channel $Channel
+ * @property Doctrine_Collection $Channel
  * 
- * @method integer   getChannelId()  Returns the current record's "channel_id" value
- * @method string    getTitle()      Returns the current record's "title" value
- * @method string    getSubtitle()   Returns the current record's "subtitle" value
- * @method string    getAuthor()     Returns the current record's "author" value
- * @method string    getSummary()    Returns the current record's "summary" value
- * @method string    getImage()      Returns the current record's "image" value
- * @method string    getUrl()        Returns the current record's "url" value
- * @method integer   getLenght()     Returns the current record's "lenght" value
- * @method enum      getType()       Returns the current record's "type" value
- * @method timestamp getPubDate()    Returns the current record's "pub_date" value
- * @method string    getDuration()   Returns the current record's "duration" value
- * @method string    getKeywords()   Returns the current record's "keywords" value
- * @method Channel   getChannel()    Returns the current record's "Channel" value
- * @method Item      setChannelId()  Sets the current record's "channel_id" value
- * @method Item      setTitle()      Sets the current record's "title" value
- * @method Item      setSubtitle()   Sets the current record's "subtitle" value
- * @method Item      setAuthor()     Sets the current record's "author" value
- * @method Item      setSummary()    Sets the current record's "summary" value
- * @method Item      setImage()      Sets the current record's "image" value
- * @method Item      setUrl()        Sets the current record's "url" value
- * @method Item      setLenght()     Sets the current record's "lenght" value
- * @method Item      setType()       Sets the current record's "type" value
- * @method Item      setPubDate()    Sets the current record's "pub_date" value
- * @method Item      setDuration()   Sets the current record's "duration" value
- * @method Item      setKeywords()   Sets the current record's "keywords" value
- * @method Item      setChannel()    Sets the current record's "Channel" value
+ * @method integer             getChannelId()  Returns the current record's "channel_id" value
+ * @method string              getTitle()      Returns the current record's "title" value
+ * @method string              getSubtitle()   Returns the current record's "subtitle" value
+ * @method string              getAuthor()     Returns the current record's "author" value
+ * @method string              getSummary()    Returns the current record's "summary" value
+ * @method string              getImage()      Returns the current record's "image" value
+ * @method string              getUrl()        Returns the current record's "url" value
+ * @method integer             getLenght()     Returns the current record's "lenght" value
+ * @method enum                getType()       Returns the current record's "type" value
+ * @method timestamp           getPubDate()    Returns the current record's "pub_date" value
+ * @method string              getDuration()   Returns the current record's "duration" value
+ * @method string              getKeywords()   Returns the current record's "keywords" value
+ * @method Doctrine_Collection getChannel()    Returns the current record's "Channel" collection
+ * @method Item                setChannelId()  Sets the current record's "channel_id" value
+ * @method Item                setTitle()      Sets the current record's "title" value
+ * @method Item                setSubtitle()   Sets the current record's "subtitle" value
+ * @method Item                setAuthor()     Sets the current record's "author" value
+ * @method Item                setSummary()    Sets the current record's "summary" value
+ * @method Item                setImage()      Sets the current record's "image" value
+ * @method Item                setUrl()        Sets the current record's "url" value
+ * @method Item                setLenght()     Sets the current record's "lenght" value
+ * @method Item                setType()       Sets the current record's "type" value
+ * @method Item                setPubDate()    Sets the current record's "pub_date" value
+ * @method Item                setDuration()   Sets the current record's "duration" value
+ * @method Item                setKeywords()   Sets the current record's "keywords" value
+ * @method Item                setChannel()    Sets the current record's "Channel" collection
  * 
  * @package    podcastadmin
  * @subpackage model
@@ -123,7 +123,7 @@ abstract class BaseItem extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasOne('Channel', array(
+        $this->hasMany('Channel', array(
              'local' => 'channel_id',
              'foreign' => 'id',
              'onDelete' => 'CASCADE'));

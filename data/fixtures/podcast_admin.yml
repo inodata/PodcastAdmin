@@ -1,0 +1,83 @@
+Channel:
+  muchobeat:
+    title:        MuchoBeat
+    subtitle:     Primera edición de Mucho Beat
+    author:       Dj Agustin
+    summary:      Este es la primera prueba de un podcast
+    description:  Podcast creado para probar la aplicación.
+    category:     Audio
+    image:        podcast01.jpg
+    link:         http://muchobeat.com
+    language:     en
+    copyright:    2012, Derechos reservados.
+    explicit:     1
+    
+  lowbeats:
+    title:        LowBeats
+    subtitle:     Primera edición de LowBeats
+    author:       Dj Agustin
+    summary:      Este es la segunda prueba de un podcast
+    description:  Podcast creado para probar la aplicación.
+    category:     Audio
+    image:        podcast02.jpg
+    link:         http://lowbeats.com
+    language:     en
+    copyright:    2012, Derechos reservados.
+    explicit:     1
+    
+Item:
+  muchobeat01:
+    channel_id:   muchobeat
+    title:        Mucho Beat 01
+    subtitle:     Primer podcast de mucho beat
+    author:       Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe
+    summary:      Primer podcast de prueba
+    image:        podcast01.jpg
+    url:          http:/muchobeat.com/podcasts/podcast_01.mp3
+    lenght:       90000
+    type:         audio/mpeg
+    pub_date:      01/01/2012
+    duration:     01:00:00
+    keywords:     muchobeat, mucho beat, music
+  
+  muchobeat02:
+    channel_id:   muchobeat
+    title:        Mucho Beat 02
+    subtitle:     Segundo podcast de mucho beat
+    author:       Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe
+    summary:      Segundo podcast de prueba
+    image:        podcast01.jpg
+    url:          http:/muchobeat.com/podcasts/podcast_02.mp3
+    lenght:       100000
+    type:         audio/mpeg
+    pub_date:      02/01/2012
+    duration:     02:00:00
+    keywords:     muchobeat, mucho beat, music
+  
+  lowbeats01:
+    channel_id:   lowbeats
+    title:        LowBeats 01
+    subtitle:     Primer podcast de lowbeats
+    author:       Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe
+    summary:      Tercer podcast de prueba
+    image:        podcast02.jpg
+    url:          http://lowbeats.com/podcasts/podcast_01.mp3
+    lenght:       100000
+    type:         audio/mpeg
+    pub_date:      02/01/2012
+    duration:     02:00:00
+    keywords:     muchobeat, mucho beat, music
+  
+  lowbeats02:
+    channel_id:   lowbeats
+    title:        LowBeats 02
+    subtitle:     Segundo podcast de lowbeats
+    author:       Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe
+    summary:      Cuarto podcast de prueba
+    image:        podcast02.jpg
+    url:          http://lowbeats.com/podcasts/podcast_02.mp3
+    lenght:       100001
+    type:         audio/mpeg
+    pub_date:      03/01/2012
+    duration:     02:00:01
+    keywords:     muchobeat, mucho beat, music

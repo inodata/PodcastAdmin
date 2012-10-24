@@ -16,32 +16,32 @@
  * @property string $language
  * @property string $copyright
  * @property boolean $explicit
- * @property Doctrine_Collection $Items
+ * @property Item $Items
  * 
- * @method string              getTitle()       Returns the current record's "title" value
- * @method string              getSubtitle()    Returns the current record's "subtitle" value
- * @method string              getAuthor()      Returns the current record's "author" value
- * @method string              getSummary()     Returns the current record's "summary" value
- * @method string              getDescription() Returns the current record's "description" value
- * @method string              getCategory()    Returns the current record's "category" value
- * @method string              getImage()       Returns the current record's "image" value
- * @method string              getLink()        Returns the current record's "link" value
- * @method string              getLanguage()    Returns the current record's "language" value
- * @method string              getCopyright()   Returns the current record's "copyright" value
- * @method boolean             getExplicit()    Returns the current record's "explicit" value
- * @method Doctrine_Collection getItems()       Returns the current record's "Items" collection
- * @method Channel             setTitle()       Sets the current record's "title" value
- * @method Channel             setSubtitle()    Sets the current record's "subtitle" value
- * @method Channel             setAuthor()      Sets the current record's "author" value
- * @method Channel             setSummary()     Sets the current record's "summary" value
- * @method Channel             setDescription() Sets the current record's "description" value
- * @method Channel             setCategory()    Sets the current record's "category" value
- * @method Channel             setImage()       Sets the current record's "image" value
- * @method Channel             setLink()        Sets the current record's "link" value
- * @method Channel             setLanguage()    Sets the current record's "language" value
- * @method Channel             setCopyright()   Sets the current record's "copyright" value
- * @method Channel             setExplicit()    Sets the current record's "explicit" value
- * @method Channel             setItems()       Sets the current record's "Items" collection
+ * @method string  getTitle()       Returns the current record's "title" value
+ * @method string  getSubtitle()    Returns the current record's "subtitle" value
+ * @method string  getAuthor()      Returns the current record's "author" value
+ * @method string  getSummary()     Returns the current record's "summary" value
+ * @method string  getDescription() Returns the current record's "description" value
+ * @method string  getCategory()    Returns the current record's "category" value
+ * @method string  getImage()       Returns the current record's "image" value
+ * @method string  getLink()        Returns the current record's "link" value
+ * @method string  getLanguage()    Returns the current record's "language" value
+ * @method string  getCopyright()   Returns the current record's "copyright" value
+ * @method boolean getExplicit()    Returns the current record's "explicit" value
+ * @method Item    getItems()       Returns the current record's "Items" value
+ * @method Channel setTitle()       Sets the current record's "title" value
+ * @method Channel setSubtitle()    Sets the current record's "subtitle" value
+ * @method Channel setAuthor()      Sets the current record's "author" value
+ * @method Channel setSummary()     Sets the current record's "summary" value
+ * @method Channel setDescription() Sets the current record's "description" value
+ * @method Channel setCategory()    Sets the current record's "category" value
+ * @method Channel setImage()       Sets the current record's "image" value
+ * @method Channel setLink()        Sets the current record's "link" value
+ * @method Channel setLanguage()    Sets the current record's "language" value
+ * @method Channel setCopyright()   Sets the current record's "copyright" value
+ * @method Channel setExplicit()    Sets the current record's "explicit" value
+ * @method Channel setItems()       Sets the current record's "Items" value
  * 
  * @package    podcastadmin
  * @subpackage model
@@ -113,7 +113,7 @@ abstract class BaseChannel extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('Item as Items', array(
+        $this->hasOne('Item as Items', array(
              'local' => 'id',
              'foreign' => 'channel_id'));
 
