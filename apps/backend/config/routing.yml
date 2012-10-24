@@ -1,3 +1,21 @@
+item:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Item
+    module:               item
+    prefix_path:          /item
+    column:               id
+    with_wildcard_routes: true
+
+channel:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Channel
+    module:               channel
+    prefix_path:          /channel
+    column:               id
+    with_wildcard_routes: true
+
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
