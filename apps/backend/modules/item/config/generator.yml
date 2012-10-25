@@ -13,9 +13,12 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:
+        pub_date: { label: "Released", date_format: "d/M/y" }
+      list:
+        display:  [ =title, subtitle, pub_date ]
+      filter:
+        display:  [ channel_id, title, author, pub_date, keywords ]
       form:    ~
       edit:    ~
       new:     ~
