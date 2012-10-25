@@ -1,5 +1,5 @@
 Channel:
-  muchobeat:
+  Muchobeat:
     title:        MuchoBeat
     subtitle:     Primera edición de Mucho Beat
     author:       Dj Agustin
@@ -12,7 +12,7 @@ Channel:
     copyright:    2012, Derechos reservados.
     explicit:     1
     
-  lowbeats:
+  Lowbeats:
     title:        LowBeats
     subtitle:     Primera edición de LowBeats
     author:       Dj Agustin
@@ -27,21 +27,21 @@ Channel:
     
 Item:
   muchobeat01:
-    channel_id:   muchobeat
+    Channel:      Muchobeat
     title:        Mucho Beat 01
     subtitle:     Primer podcast de mucho beat
     author:       Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe
     summary:      Primer podcast de prueba
     image:        podcast01.jpg
-    url:          http:/muchobeat.com/podcasts/podcast_01.mp3
+    url:          http://muchobeat.com/podcasts/podcast_01.mp3
     lenght:       90000
     type:         audio/mpeg
-    pub_date:      01/01/2012
+    pub_date:     "2012-01-01 00:00"
     duration:     01:00:00
     keywords:     muchobeat, mucho beat, music
-  
+
   muchobeat02:
-    channel_id:   muchobeat
+    Channel:      Muchobeat
     title:        Mucho Beat 02
     subtitle:     Segundo podcast de mucho beat
     author:       Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe
@@ -50,12 +50,12 @@ Item:
     url:          http:/muchobeat.com/podcasts/podcast_02.mp3
     lenght:       100000
     type:         audio/mpeg
-    pub_date:      02/01/2012
+    pub_date:     "2012-01-01 00:00"
     duration:     02:00:00
     keywords:     muchobeat, mucho beat, music
   
   lowbeats01:
-    channel_id:   lowbeats
+    Channel:      Lowbeats
     title:        LowBeats 01
     subtitle:     Primer podcast de lowbeats
     author:       Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe
@@ -64,12 +64,12 @@ Item:
     url:          http://lowbeats.com/podcasts/podcast_01.mp3
     lenght:       100000
     type:         audio/mpeg
-    pub_date:      02/01/2012
+    pub_date:     "2012-01-01 00:00"
     duration:     02:00:00
     keywords:     muchobeat, mucho beat, music
   
   lowbeats02:
-    channel_id:   lowbeats
+    Channel:      Lowbeats
     title:        LowBeats 02
     subtitle:     Segundo podcast de lowbeats
     author:       Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe
@@ -78,6 +78,6 @@ Item:
     url:          http://lowbeats.com/podcasts/podcast_02.mp3
     lenght:       100001
     type:         audio/mpeg
-    pub_date:      03/01/2012
+    pub_date:     "2012-01-01 00:00"
     duration:     02:00:01
     keywords:     muchobeat, mucho beat, music

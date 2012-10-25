@@ -1,3 +1,9 @@
+detect_relations: true
+options:
+  collate: utf8_general_ci
+  charset: utf8
+  type: InnoDB
+
 Channel:
   actAs:  { Timestampable: ~ }
   columns:
@@ -33,10 +39,9 @@ Item:
     keywords:     { type: string(255), notnull: true, default: "muchobeat, mucho beat, music" }
   relations:
     Channel:
-      class:    Channel
-      local:    channel_id
-      foreign:  id
-      type: many
-      foreignType: one
-      onDelete: CASCADE
+      class:        Channel
+      local:        channel_id
+      type:         one
+      foreignType:  many
+      onDelete:     CASCADE
       foreignAlias: Items
