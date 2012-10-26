@@ -9,6 +9,10 @@
     <?php include_javascripts() ?>
   </head>
   <body>
+  	<div>
+  		<a href="channel">Channel</a>
+  		<a href="item">Item</a>
+  	</div>
     <?php echo $sf_content ?>
   </body>
 </html>
