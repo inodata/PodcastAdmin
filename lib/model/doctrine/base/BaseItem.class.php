@@ -18,6 +18,7 @@
  * @property string $duration
  * @property string $keywords
  * @property Channel $Channel
+ * @property ItemFile $ItemFile
  * 
  * @method integer   getChannelId()  Returns the current record's "channel_id" value
  * @method string    getTitle()      Returns the current record's "title" value
@@ -32,6 +33,7 @@
  * @method string    getDuration()   Returns the current record's "duration" value
  * @method string    getKeywords()   Returns the current record's "keywords" value
  * @method Channel   getChannel()    Returns the current record's "Channel" value
+ * @method ItemFile  getItemFile()   Returns the current record's "ItemFile" value
  * @method Item      setChannelId()  Sets the current record's "channel_id" value
  * @method Item      setTitle()      Sets the current record's "title" value
  * @method Item      setSubtitle()   Sets the current record's "subtitle" value
@@ -45,6 +47,7 @@
  * @method Item      setDuration()   Sets the current record's "duration" value
  * @method Item      setKeywords()   Sets the current record's "keywords" value
  * @method Item      setChannel()    Sets the current record's "Channel" value
+ * @method Item      setItemFile()   Sets the current record's "ItemFile" value
  * 
  * @package    podcastadmin
  * @subpackage model
@@ -131,6 +134,10 @@ abstract class BaseItem extends sfDoctrineRecord
              'local' => 'channel_id',
              'foreign' => 'id',
              'onDelete' => 'CASCADE'));
+
+        $this->hasOne('ItemFile', array(
+             'local' => 'id',
+             'foreign' => 'item_id'));
 
         $timestampable0 = new Doctrine_Template_Timestampable();
         $sluggable0 = new Doctrine_Template_Sluggable(array(

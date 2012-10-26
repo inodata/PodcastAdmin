@@ -14,8 +14,10 @@ generator:
     config:
       actions: ~
       fields:  ~
-      list:    ~
-      filter:  ~
+      list:
+        display:  [ =title, summary, author, link, created_at, updated_at ]
+      filter:
+        display:  [ title, subtitle, summary, author, category ]
       form:    ~
       edit:    ~
       new:     ~

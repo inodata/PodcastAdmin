@@ -45,3 +45,16 @@ Item:
       foreignType:  many
       onDelete:     CASCADE
       foreignAlias: Items
+
+ItemFile:
+  columns:
+    item_id:    { type: integer }
+    filename:   { type: string(255) }
+    caption:    { type: string(255), notnull: true }
+  relations:
+    Item:
+      alias:        Item
+      type:         one
+      foreignType:  one
+      foreignAlias: ItemFile
+      onDelete:     CASCADE

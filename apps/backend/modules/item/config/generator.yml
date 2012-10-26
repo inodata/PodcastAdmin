@@ -19,6 +19,7 @@ generator:
         display:  [ =title, subtitle, pub_date ]
       filter:
         display:  [ channel_id, title, author, pub_date, keywords ]
-      form:    ~
+      form:
+        display:  [ channel_id, title, author, subtitle, summary, pub_date, keywords ]
       edit:    ~
       new:     ~
