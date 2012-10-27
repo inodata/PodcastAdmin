@@ -20,6 +20,6 @@ generator:
       filter:
         display:  [ channel_id, title, author, pub_date, keywords ]
       form:
-        display:  [ channel_id, title, author, subtitle, summary, pub_date, keywords ]
+#        display:  [ channel_id, title, author, subtitle, summary, pub_date, keywords, attachment ]
       edit:    ~
       new:     ~

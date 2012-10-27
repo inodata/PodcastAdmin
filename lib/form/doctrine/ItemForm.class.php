@@ -12,5 +12,11 @@ class ItemForm extends BaseItemForm
 {
   public function configure()
   {
+    $subForm = new sfForm();
+    $itemFile = new ItemFile();
+    $itemFile->Item = $this->getObject();
+    $form = new ItemFileForm($itemFile);
+    $subForm->embedForm("podcast", $form);
+    $this->embedForm('attachment', $subForm);
   }
 }

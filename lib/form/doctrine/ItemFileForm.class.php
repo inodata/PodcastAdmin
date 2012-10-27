@@ -12,5 +12,12 @@ class ItemFileForm extends BaseItemFileForm
 {
   public function configure()
   {
+    $mime_types = "audio/mpeg, video/mp4";
+    $this->useFields(array('filename', 'caption'));
+    $this->setWidget('filename', new sfWidgetFormInputFile());
+    $this->setValidator('filename', new sfValidatorFile(array(
+    	'mime_types' => $mime_types,
+    	'path' => sfConfig::get('sf_upload_dir').'/podcasts',
+    )));
   }
 }
