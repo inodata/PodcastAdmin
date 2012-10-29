@@ -17,8 +17,8 @@
  * @property timestamp $pub_date
  * @property string $duration
  * @property string $keywords
+ * @property string $file
  * @property Channel $Channel
- * @property ItemFile $ItemFile
  * 
  * @method integer   getChannelId()  Returns the current record's "channel_id" value
  * @method string    getTitle()      Returns the current record's "title" value
@@ -32,8 +32,8 @@
  * @method timestamp getPubDate()    Returns the current record's "pub_date" value
  * @method string    getDuration()   Returns the current record's "duration" value
  * @method string    getKeywords()   Returns the current record's "keywords" value
+ * @method string    getFile()       Returns the current record's "file" value
  * @method Channel   getChannel()    Returns the current record's "Channel" value
- * @method ItemFile  getItemFile()   Returns the current record's "ItemFile" value
  * @method Item      setChannelId()  Sets the current record's "channel_id" value
  * @method Item      setTitle()      Sets the current record's "title" value
  * @method Item      setSubtitle()   Sets the current record's "subtitle" value
@@ -46,8 +46,8 @@
  * @method Item      setPubDate()    Sets the current record's "pub_date" value
  * @method Item      setDuration()   Sets the current record's "duration" value
  * @method Item      setKeywords()   Sets the current record's "keywords" value
+ * @method Item      setFile()       Sets the current record's "file" value
  * @method Item      setChannel()    Sets the current record's "Channel" value
- * @method Item      setItemFile()   Sets the current record's "ItemFile" value
  * 
  * @package    podcastadmin
  * @subpackage model
@@ -85,7 +85,6 @@ abstract class BaseItem extends sfDoctrineRecord
              ));
         $this->hasColumn('image', 'string', 255, array(
              'type' => 'string',
-             'notnull' => true,
              'length' => 255,
              ));
         $this->hasColumn('url', 'string', 255, array(
@@ -121,6 +120,11 @@ abstract class BaseItem extends sfDoctrineRecord
              'default' => 'muchobeat, mucho beat, music',
              'length' => 255,
              ));
+        $this->hasColumn('file', 'string', 255, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 255,
+             ));
 
         $this->option('collate', 'utf8_general_ci');
         $this->option('charset', 'utf8');
@@ -135,18 +139,14 @@ abstract class BaseItem extends sfDoctrineRecord
              'foreign' => 'id',
              'onDelete' => 'CASCADE'));
 
-        $this->hasOne('ItemFile', array(
-             'local' => 'id',
-             'foreign' => 'item_id'));
-
-        $timestampable0 = new Doctrine_Template_Timestampable();
         $sluggable0 = new Doctrine_Template_Sluggable(array(
              'fields' => 
              array(
               0 => 'title',
              ),
              ));
-        $this->actAs($timestampable0);
+        $timestampable0 = new Doctrine_Template_Timestampable();
         $this->actAs($sluggable0);
+        $this->actAs($timestampable0);
     }
 }

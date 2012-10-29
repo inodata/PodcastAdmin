@@ -21,22 +21,23 @@ Channel:
 
 Item:
   actAs:
-    Timestampable: ~
     Sluggable:
       fields: [title]
+    Timestampable: ~
   columns:
     channel_id:   { type: integer, notnull: true }
     title:        { type: string(255), notnull: true }
     subtitle:     { type: string(255), notnull: true }
     author:       { type: string(60), notnull: true }
     summary:      { type: string(600), notnull: true }
-    image:        { type: string(255), notnull: true }
+    image:        { type: string(255) }
     url:          { type: string(255), notnull: true }
     lenght:       { type: integer, notnull: true }
     type:         { type: enum, values: [ "audio/mpeg", "video/mp4" ], default: "audio/mpeg" }
     pub_date:     { type: timestamp, notnull: true }
     duration:     { type: string(16), notnull: true }
     keywords:     { type: string(255), notnull: true, default: "muchobeat, mucho beat, music" }
+    file:         { type: string(255), notnull: true }
   relations:
     Channel:
       class:        Channel
@@ -45,16 +46,3 @@ Item:
       foreignType:  many
       onDelete:     CASCADE
       foreignAlias: Items
-
-ItemFile:
-  columns:
-    item_id:    { type: integer }
-    filename:   { type: string(255) }
-    caption:    { type: string(255), notnull: true }
-  relations:
-    Item:
-      alias:        Item
-      type:         one
-      foreignType:  one
-      foreignAlias: ItemFile
-      onDelete:     CASCADE

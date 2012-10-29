@@ -28,9 +28,10 @@ abstract class BaseItemForm extends BaseFormDoctrine
       'pub_date'   => new sfWidgetFormDateTime(),
       'duration'   => new sfWidgetFormInputText(),
       'keywords'   => new sfWidgetFormInputText(),
+      'file'       => new sfWidgetFormInputText(),
+      'slug'       => new sfWidgetFormInputText(),
       'created_at' => new sfWidgetFormDateTime(),
       'updated_at' => new sfWidgetFormDateTime(),
-      'slug'       => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
@@ -40,16 +41,17 @@ abstract class BaseItemForm extends BaseFormDoctrine
       'subtitle'   => new sfValidatorString(array('max_length' => 255)),
       'author'     => new sfValidatorString(array('max_length' => 60)),
       'summary'    => new sfValidatorString(array('max_length' => 600)),
-      'image'      => new sfValidatorString(array('max_length' => 255)),
+      'image'      => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'url'        => new sfValidatorString(array('max_length' => 255)),
       'lenght'     => new sfValidatorInteger(),
       'type'       => new sfValidatorChoice(array('choices' => array(0 => 'audio/mpeg', 1 => 'video/mp4'), 'required' => false)),
       'pub_date'   => new sfValidatorDateTime(),
       'duration'   => new sfValidatorString(array('max_length' => 16)),
       'keywords'   => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'file'       => new sfValidatorString(array('max_length' => 255)),
+      'slug'       => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'created_at' => new sfValidatorDateTime(),
       'updated_at' => new sfValidatorDateTime(),
-      'slug'       => new sfValidatorString(array('max_length' => 255, 'required' => false)),
     ));
 
     $this->validatorSchema->setPostValidator(

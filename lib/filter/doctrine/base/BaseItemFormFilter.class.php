@@ -18,16 +18,17 @@ abstract class BaseItemFormFilter extends BaseFormFilterDoctrine
       'subtitle'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'author'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'summary'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'image'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'image'      => new sfWidgetFormFilterInput(),
       'url'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'lenght'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'type'       => new sfWidgetFormChoice(array('choices' => array('' => '', 'audio/mpeg' => 'audio/mpeg', 'video/mp4' => 'video/mp4'))),
       'pub_date'   => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
       'duration'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'keywords'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'file'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'slug'       => new sfWidgetFormFilterInput(),
       'created_at' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
       'updated_at' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
-      'slug'       => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
@@ -43,9 +44,10 @@ abstract class BaseItemFormFilter extends BaseFormFilterDoctrine
       'pub_date'   => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
       'duration'   => new sfValidatorPass(array('required' => false)),
       'keywords'   => new sfValidatorPass(array('required' => false)),
+      'file'       => new sfValidatorPass(array('required' => false)),
+      'slug'       => new sfValidatorPass(array('required' => false)),
       'created_at' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
       'updated_at' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
-      'slug'       => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('item_filters[%s]');
@@ -78,9 +80,10 @@ abstract class BaseItemFormFilter extends BaseFormFilterDoctrine
       'pub_date'   => 'Date',
       'duration'   => 'Text',
       'keywords'   => 'Text',
+      'file'       => 'Text',
+      'slug'       => 'Text',
       'created_at' => 'Date',
       'updated_at' => 'Date',
-      'slug'       => 'Text',
     );
   }
 }
