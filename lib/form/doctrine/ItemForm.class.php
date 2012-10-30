@@ -34,14 +34,15 @@ class ItemForm extends BaseItemForm
   	//TODO: Error retornado: Action "item/1" does not exist.
   	$this->widgetSchema['file'] = new sfWidgetFormInputFileEditable(array(
   			'file_src' => '/uploads/podcasts/'.$this->getObject()->getFile(),
-  			'edit_mode' => !$this->isNew(),
+  			'edit_mode' => false,
   			'template' => '<div class="sublabel">%file%<br />%input%<br />%delete% %delete_label%</div>'
   	));
   	
   	$this->validatorSchema['image'] = new sfValidatorFile(array(
   			'required'   => false,
+  	    'max_size'	=> 120000000,
   			'path'       => sfConfig::get('sf_upload_dir').'/podcasts',
-  			'mime_types' => $mime_types,
+  			'mime_types' => "audio/mpeg, video/mp4",
   	));
   	
   	$this->validatorSchema['file_delete'] = new sfValidatorPass();
