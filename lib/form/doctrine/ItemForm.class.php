@@ -12,11 +12,24 @@ class ItemForm extends BaseItemForm
 {
   public function configure()
   {
-  	$mime_types = "audio/mpeg, video/mp4";
+  	
+  	$mime_types = array('audio/mpeg', 'audio/mpeg3', 'audio/x-mpeg-3',
+  											'video/mpeg', 'video/x-mpeg');
+  	
+  	/*
+  	 * Checa si el objeto es nuevo pone la imagen default
+  	 */
+  	$file_src = '/uploads/images/'.$this->getObject()->getImage();
+  	if ($this->getObject()->isNew())
+  	{
+  		$file_src = '/assets/default_image.jpg';
+  	}
+  	
+  	//TODO: Implementar datepicker para pubdate.
   	
   	$this->widgetSchema['image'] = new sfWidgetFormInputFileEditable(array(
   			'label' => 'Image',
-  			'file_src' => '/uploads/images/'.$this->getObject()->getImage(),
+  			'file_src' => $file_src,
   			'is_image' => true,
   			'edit_mode' => !$this->isNew(),
   			'template' => '<div class="sublabel">%file%<br />%input%<br />%delete% %delete_label%</div>',
@@ -30,24 +43,27 @@ class ItemForm extends BaseItemForm
   	
   	$this->validatorSchema['image_delete'] = new sfValidatorPass();
   	
-  	//TODO: Revisar que diferencia hay entre tipos de archivo de imagen y otro, probar con archivos de texto.
-  	//TODO: Error retornado: Action "item/1" does not exist.
+  	/**
+			Cuando se manejan archivos grandes, tanto la opcion max_size en el validator
+			como las directivas upload_max_filesize y post_max_size deben ser congruentes.
+			En este caso la opcion max_size se deja abierta por depender del hosting.
+  	 */
   	$this->widgetSchema['file'] = new sfWidgetFormInputFileEditable(array(
+  			'label' => 'File',
   			'file_src' => '/uploads/podcasts/'.$this->getObject()->getFile(),
-  			'edit_mode' => false,
+  			'edit_mode' => !$this->isNew(),
   			'template' => '<div class="sublabel">%file%<br />%input%<br />%delete% %delete_label%</div>'
   	));
   	
-  	$this->validatorSchema['image'] = new sfValidatorFile(array(
-  			'required'   => false,
-  	    'max_size'	=> 120000000,
+  	$this->validatorSchema['file'] = new sfValidatorFile(array(
+  			'required'   => true,
   			'path'       => sfConfig::get('sf_upload_dir').'/podcasts',
-  			'mime_types' => "audio/mpeg, video/mp4",
+  			'mime_types' => $mime_types,  			
   	));
   	
   	$this->validatorSchema['file_delete'] = new sfValidatorPass();
   	
-  	unset($this['created_at'], $this['updated_at']);
+  	unset($this['slug'], $this['created_at'], $this['updated_at']);
   	
   }
 }
