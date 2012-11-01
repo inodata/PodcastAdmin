@@ -52,6 +52,7 @@ Mixtape:
     Timestampable: ~
   columns:
     title:        { type: string(255), notnull: true }
+    banner:       { type: string(255), notnull: false }
     file:         { type: string(255), notnull: true }
 
 Subscriber:

@@ -52,6 +52,7 @@ class ItemForm extends BaseItemForm
   			'label' => 'File',
   			'file_src' => '/uploads/podcasts/'.$this->getObject()->getFile(),
   			'edit_mode' => !$this->isNew(),
+  			'with_delete' => false,
   			'template' => '<div class="sublabel"><audio controls="controls"><source src="%file%" type="audio/mp3">Your browser does not support the audio element.</audio><br />%input%<br />%delete% %delete_label%</div>'
   	));
   	
@@ -60,8 +61,6 @@ class ItemForm extends BaseItemForm
   			'path'       => sfConfig::get('sf_upload_dir').'/podcasts',
   			'mime_types' => $mime_types,  			
   	));
-  	
-  	$this->validatorSchema['file_delete'] = new sfValidatorPass();
   	
   	unset($this['slug'], $this['created_at'], $this['updated_at']);
   	
