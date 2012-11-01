@@ -46,3 +46,42 @@ Item:
       foreignType:  many
       onDelete:     CASCADE
       foreignAlias: Items
+
+Mixtape:
+  actAs:
+    Timestampable: ~
+  columns:
+    title:        { type: string(255), notnull: true }
+    file:         { type: string(255), notnull: true }
+
+Subscriber:
+  actAs:
+    Timestampable: ~
+  columns:
+    email:        { type: string(255), notnull: true }
+
+Token:
+  actAs:
+    Timestampable: ~
+  columns:
+    mixtape_id:    { type: integer, notnull: true }
+    subscriber_id: { type: integer, notnull: true }
+    is_valid:      { type: bool,  notnull: false }
+  relations:
+    Mixtape:
+      class:      Mixtape
+      local:      mixtape_id
+      onDelete:   CASCADE
+    Subscriber:
+      class:      Subscriber
+      local:      subscriber_id
+      onDelete:   CASCADE
+
+Advertisement:
+  actAs:
+    Timestampable: ~
+  columns:
+    title:        { type: string(255), notnull: true }
+    banner:       { type: string(255), notnull: true }
+    content:      { type: string(4000), notnull: true }
+    is_published: { type: timestamp, notnull: false }

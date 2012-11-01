@@ -52,7 +52,7 @@ class ItemForm extends BaseItemForm
   			'label' => 'File',
   			'file_src' => '/uploads/podcasts/'.$this->getObject()->getFile(),
   			'edit_mode' => !$this->isNew(),
-  			'template' => '<div class="sublabel">%file%<br />%input%<br />%delete% %delete_label%</div>'
+  			'template' => '<div class="sublabel"><audio controls="controls"><source src="%file%" type="audio/mp3">Your browser does not support the audio element.</audio><br />%input%<br />%delete% %delete_label%</div>'
   	));
   	
   	$this->validatorSchema['file'] = new sfValidatorFile(array(
