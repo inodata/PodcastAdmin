@@ -26,7 +26,7 @@ abstract class BaseMixtapeForm extends BaseFormDoctrine
     $this->setValidators(array(
       'id'         => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'title'      => new sfValidatorString(array('max_length' => 255)),
-      'banner'     => new sfValidatorString(array('max_length' => 255)),
+      'banner'     => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'file'       => new sfValidatorString(array('max_length' => 255)),
       'created_at' => new sfValidatorDateTime(),
       'updated_at' => new sfValidatorDateTime(),

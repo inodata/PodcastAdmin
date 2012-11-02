@@ -36,7 +36,7 @@ abstract class BaseMixtape extends sfDoctrineRecord
              ));
         $this->hasColumn('banner', 'string', 255, array(
              'type' => 'string',
-             'notnull' => true,
+             'notnull' => false,
              'length' => 255,
              ));
         $this->hasColumn('file', 'string', 255, array(
