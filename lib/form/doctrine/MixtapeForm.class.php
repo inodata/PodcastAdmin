@@ -51,7 +51,7 @@ class MixtapeForm extends BaseMixtapeForm
   	));
   	 
   	$this->validatorSchema['file'] = new sfValidatorFile(array(
-  			'required'   => true,
+  			'required'   => $this->isNew(),
   			'path'       => sfConfig::get('sf_upload_dir').'/mixtapes',
   			'mime_types' => $mime_types,
   	));
