@@ -27,6 +27,17 @@ class ItemForm extends BaseItemForm
   	
   	//TODO: Implementar datepicker para pubdate.
   	
+  	$this->widgetSchema['author'] = new sfWidgetFormChoice(array(
+  			'choices'=>array(
+  					'Dj Agustin'=>'Dj Agustin',
+  					'Dj Migue Soria'=>'Dj Migue Soria',
+  					'Dj Matt'=>'Dj Matt',
+  					'Marcela Saiffe'=>'Marcela Saiffe'),
+  			'expanded'=>true,
+  			'multiple'=>true,
+  	));
+  	
+  	/*
   	$this->widgetSchema['image'] = new sfWidgetFormInputFileEditable(array(
   			'label' => 'Image',
   			'file_src' => $file_src,
@@ -39,6 +50,24 @@ class ItemForm extends BaseItemForm
   			'required'   => false,
   			'path'       => sfConfig::get('sf_upload_dir').'/images',
   			'mime_types' => 'web_images',
+  	));
+  	*/
+  	
+  	$mime_types_images = array('image/jpeg', 'image/png', 'image/bmp', 'image/gif');
+  	$imgSize = $this->getObject()->getImage()!=""? "60px" : "";
+  	
+  	$this->widgetSchema['image'] = new sfWidgetFormInputFileEditable(array(
+  			'file_src' => '/uploads/channels/'.$this->getObject()->getImage(),
+  			'with_delete' => false,
+  			'template' => '<div><img src="%file%" width="'.$imgSize.'" height="'.$imgSize.'"></img><br><br>%input%</div>'
+  	));
+  	
+  	$required = $this->getObject()->getImage()!="" ? false : true;
+  	 
+  	$this->validatorSchema['image'] = new sfValidatorFile(array(
+  			'required' => $required,
+  			'path' => sfConfig::get("sf_upload_dir").'/channels/',
+  			'mime_types' => $mime_types_images,
   	));
   	
   	$this->validatorSchema['image_delete'] = new sfValidatorPass();
@@ -56,8 +85,10 @@ class ItemForm extends BaseItemForm
   			'template' => '<div class="sublabel"><audio controls="controls"><source src="%file%" type="audio/mp3">Your browser does not support the audio element.</audio><br />%input%<br />%delete% %delete_label%</div>'
   	));
   	
+  	$require = $this->getObject()->getFile()!="" ? false : true;
+  	
   	$this->validatorSchema['file'] = new sfValidatorFile(array(
-  			'required'   => true,
+  			'required'   => $require,
   			'path'       => sfConfig::get('sf_upload_dir').'/podcasts',
   			'mime_types' => $mime_types,  			
   	));
