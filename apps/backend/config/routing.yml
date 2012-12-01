@@ -16,6 +16,12 @@ item:
     column:               id
     with_wildcard_routes: true
 
+item_new_by_shortcut:
+  url: /item/new/by/shorcut
+  param: {module: item, action: newByShortcut}
+  requirements:
+    sf_method: [post]
+
 channel:
   class: sfDoctrineRouteCollection
   options:

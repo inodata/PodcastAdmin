@@ -18,6 +18,15 @@ class itemActions extends autoItemActions
 		$this->item = $this->getRoute()->getObject();
 		$this->convertAuthorsStringToArray();
 		$this->form = $this->configuration->getForm($this->item);
+		
+		$this->itemShortcutForm = new ItemShortcutForm();
+	}
+	
+	public function executeNew(sfWebRequest $request)
+	{
+		$this->itemShortcutForm = new ItemShortcutForm();
+	
+		parent::executeNew($request);
 	}
 	
 	public function executeCreate(sfWebRequest $request)
@@ -32,6 +41,32 @@ class itemActions extends autoItemActions
 		$this->convertAuthorsArrayToString($request);
 	
 		parent::executeUpdate($request);
+	}
+	
+	public function executeNewByShortcut(sfWebRequest $request)
+	{
+		$item = $request->getParameter('item');
+		
+		/** TODO obtener las propiedades del archivo recibido y llenar los campos
+		 */
+		
+		$item['title']= "Shortcut-title";
+		$item['subtitle'] = "Shortcut-subtitle";
+		$item['author'] = "Dj Agustin, Dj Migue Soria, Dj Matt";
+		$item['summary'] = "Shortcut-summary";
+		$item['image'] = "Shortcut-image";
+		$item['url'] = "url";
+		$item['lenght'] = "99999";
+		$item['type'] = "audio/mpeg";
+		$item['pub_date'] = "2012-01-01 00:00:00";
+		$item['duration'] = "00:03:20";
+		$item['keywords'] = "muchobeat, mucho beat, music";
+		//$item['slug'] = "mucho-beat-01";
+		
+		$request->setParameter('item', $item);
+		$this->itemShortcutForm = new ItemShortcutForm();
+		
+		parent::executeCreate($request);
 	}
 	
 	/**

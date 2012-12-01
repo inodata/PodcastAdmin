@@ -18,11 +18,21 @@ class channelActions extends autoChannelActions
 		$this->channel = $this->getRoute()->getObject();
 		$this->convertAuthorsStringToArray();
 		$this->form = $this->configuration->getForm($this->channel);
+		
+		$this->itemShortcutForm = new ItemShortcutForm();
+	}
+	
+	public function executeNew(sfWebRequest $request)
+	{
+		$this->itemShortcutForm = new ItemShortcutForm();
+		
+		parent::executeNew($request);
 	}
 	
 	public function executeCreate(sfWebRequest $request)
 	{
 		$this->convertAuthorsArrayToString($request);
+		$this->itemShortcutForm = new ItemShortcutForm();
 		
 		parent::executeCreate($request);
 	}
@@ -30,6 +40,7 @@ class channelActions extends autoChannelActions
 	public function executeUpdate(sfWebRequest $request)
 	{
 		$this->convertAuthorsArrayToString($request);
+		$this->itemShortcutForm = new ItemShortcutForm();
 		
 		parent::executeUpdate($request);
 	}
