@@ -18,7 +18,7 @@ abstract class BaseChannelFormFilter extends BaseFormFilterDoctrine
       'author'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'summary'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'description' => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'category'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'category'    => new sfWidgetFormFilterInput(),
       'image'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'link'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'language'    => new sfWidgetFormFilterInput(array('with_empty' => false)),

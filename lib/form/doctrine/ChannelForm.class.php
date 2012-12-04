@@ -12,6 +12,7 @@ class ChannelForm extends BaseChannelForm
 {
   public function configure()
   {
+  	
   	$this->widgetSchema['author'] = new sfWidgetFormChoice(array(
   			'choices'=>array(
   					'Dj Agustin'=>'Dj Agustin', 
@@ -24,10 +25,8 @@ class ChannelForm extends BaseChannelForm
   	
   	$this->widgetSchema['language'] = new sfWidgetFormChoice(array(
   			'choices' => array(
-  					'Spanish' => 'Spanish',
-  					'English' => 'English',
-  					'Spanish/English' => 'Spanish/English',
-  					'Other' => 'Other'
+  					'es-mx' => 'Spanish',
+  					'en-us' => 'English',
   			)
   	));
   	
@@ -42,14 +41,20 @@ class ChannelForm extends BaseChannelForm
   	
   	$required = $this->getObject()->getImage()!="" ? false : true;
   	
-  	$this->validatorSchema['image'] = new sfValidatorFile(array(
+  	$this->validatorSchema['image'] = new sfImageFileValidator(array(
   			'required' => $required,
   			'path' => sfConfig::get("sf_upload_dir").'/channels/',
   			'mime_types' => $mime_types,
+  			'min_height' => 1400,
+  			'max_height' => 1400,
+  			'min_width'  =>	1400,
+  			'max_width'	 => 1400,
   	));
+  	  	
+  	$this->validatorSchema['link'] = new sfValidatorUrl();  	
   	
   	unset(
-  		$this['created_at'], $this['updated_at']
+  		$this['category'], $this['created_at'], $this['updated_at']
   	);
   }
 }

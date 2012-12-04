@@ -80,7 +80,8 @@ abstract class BaseChannel extends sfDoctrineRecord
              ));
         $this->hasColumn('category', 'string', 40, array(
              'type' => 'string',
-             'notnull' => true,
+             'notnull' => false,
+             'default' => 'Music',
              'length' => 40,
              ));
         $this->hasColumn('image', 'string', 255, array(

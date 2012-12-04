@@ -12,7 +12,7 @@ Channel:
     author:       { type: string(60), notnull: true }
     summary:      { type: string(600), notnull: true }
     description:  { type: string(4000), notnull: true }
-    category:     { type: string(40), notnull: true }
+    category:     { type: string(40), notnull: false, default: 'Music' }
     image:        { type: string(255), notnull: true }
     link:         { type: string(255), notnull: true }
     language:     { type: string(40), notnull: true }

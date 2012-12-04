@@ -37,22 +37,6 @@ class ItemForm extends BaseItemForm
   			'multiple'=>true,
   	));
   	
-  	/*
-  	$this->widgetSchema['image'] = new sfWidgetFormInputFileEditable(array(
-  			'label' => 'Image',
-  			'file_src' => $file_src,
-  			'is_image' => true,
-  			'edit_mode' => !$this->isNew(),
-  			'template' => '<div class="sublabel">%file%<br />%input%<br />%delete% %delete_label%</div>',
-  	));
-  	
-  	$this->validatorSchema['image'] = new sfValidatorFile(array(
-  			'required'   => false,
-  			'path'       => sfConfig::get('sf_upload_dir').'/images',
-  			'mime_types' => 'web_images',
-  	));
-  	*/
-  	
   	$mime_types_images = array('image/jpeg', 'image/png', 'image/bmp', 'image/gif');
   	$imgSize = $this->getObject()->getImage()!=""? "60px" : "";
   	
@@ -93,7 +77,8 @@ class ItemForm extends BaseItemForm
   			'mime_types' => $mime_types,  			
   	));
   	
-  	unset($this['slug'], $this['created_at'], $this['updated_at']);
+  	unset($this['slug'], $this['keywords'], $this['lenght'],
+  			$this['duration'], $this['type'], $this['created_at'], $this['updated_at']);
   	
   }
 }

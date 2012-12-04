@@ -38,7 +38,7 @@ abstract class BaseChannelForm extends BaseFormDoctrine
       'author'      => new sfValidatorString(array('max_length' => 60)),
       'summary'     => new sfValidatorString(array('max_length' => 600)),
       'description' => new sfValidatorString(array('max_length' => 4000)),
-      'category'    => new sfValidatorString(array('max_length' => 40)),
+      'category'    => new sfValidatorString(array('max_length' => 40, 'required' => false)),
       'image'       => new sfValidatorString(array('max_length' => 255)),
       'link'        => new sfValidatorString(array('max_length' => 255)),
       'language'    => new sfValidatorString(array('max_length' => 40)),
