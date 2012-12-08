@@ -16,7 +16,7 @@ item:
     column:               id
     with_wildcard_routes: true
 
-item_new_by_shortcut:
+item_by_shortcut_create:
   url: /item/new/by/shorcut
   param: {module: item, action: newByShortcut}
   requirements:

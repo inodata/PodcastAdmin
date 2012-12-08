@@ -27,6 +27,11 @@ class ItemForm extends BaseItemForm
   	
   	//TODO: Implementar datepicker para pubdate.
   	
+  	$this->widgetSchema['keywords'] = new sfWidgetFormInputHidden();
+  	$this->widgetSchema['lenght'] = new sfWidgetFormInputHidden();
+  	$this->widgetSchema['duration'] = new sfWidgetFormInputHidden();
+  	$this->widgetSchema['type'] = new sfWidgetFormInputHidden();
+  	
   	$this->widgetSchema['author'] = new sfWidgetFormChoice(array(
   			'choices'=>array(
   					'Dj Agustin'=>'Dj Agustin',
@@ -49,7 +54,7 @@ class ItemForm extends BaseItemForm
   	$required = $this->getObject()->getImage()!="" ? false : true;
   	 
   	$this->validatorSchema['image'] = new sfValidatorFile(array(
-  			'required' => $required,
+  			'required' => false,//$required,
   			'path' => sfConfig::get("sf_upload_dir").'/channels/',
   			'mime_types' => $mime_types_images,
   	));
@@ -77,8 +82,7 @@ class ItemForm extends BaseItemForm
   			'mime_types' => $mime_types,  			
   	));
   	
-  	unset($this['slug'], $this['keywords'], $this['lenght'],
-  			$this['duration'], $this['type'], $this['created_at'], $this['updated_at']);
+  	unset($this['slug'], $this['created_at'], $this['updated_at']);
   	
   }
 }

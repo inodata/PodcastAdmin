@@ -2,6 +2,7 @@
 
 require_once dirname(__FILE__).'/../lib/itemGeneratorConfiguration.class.php';
 require_once dirname(__FILE__).'/../lib/itemGeneratorHelper.class.php';
+require_once '/home/heriberto/workspace/PodcastAdmin/lib/vendor/getid3/getid3.php';
 
 /**
  * item actions.
@@ -15,56 +16,58 @@ class itemActions extends autoItemActions
 {
 	public function executeEdit(sfWebRequest $request)
 	{
+		$this->itemShortcutForm = $this->configuration->getForm();
+		
 		$this->item = $this->getRoute()->getObject();
 		$this->convertAuthorsStringToArray();
 		$this->form = $this->configuration->getForm($this->item);
-		
-		$this->itemShortcutForm = new ItemShortcutForm();
 	}
 	
 	public function executeNew(sfWebRequest $request)
 	{
-		$this->itemShortcutForm = new ItemShortcutForm();
+		$this->itemShortcutForm = $this->configuration->getForm();
 	
 		parent::executeNew($request);
 	}
 	
 	public function executeCreate(sfWebRequest $request)
 	{
+		$this->itemShortcutForm = $this->configuration->getForm();
+		
 		$this->convertAuthorsArrayToString($request);
-	
 		parent::executeCreate($request);
 	}
 	
 	public function executeUpdate(sfWebRequest $request)
 	{
 		$this->convertAuthorsArrayToString($request);
-	
+		
 		parent::executeUpdate($request);
 	}
 	
 	public function executeNewByShortcut(sfWebRequest $request)
 	{
-		$item = $request->getParameter('item');
+		$item = $request->getParameter("item");
 		
-		/** TODO obtener las propiedades del archivo recibido y llenar los campos
-		 */
+		$files = $request->getFiles();
+		$file = $files['item']['file']['tmp_name'];
 		
-		$item['title']= "Shortcut-title";
-		$item['subtitle'] = "Shortcut-subtitle";
-		$item['author'] = "Dj Agustin, Dj Migue Soria, Dj Matt";
-		$item['summary'] = "Shortcut-summary";
-		$item['image'] = "Shortcut-image";
-		$item['url'] = "url";
-		$item['lenght'] = "99999";
-		$item['type'] = "audio/mpeg";
-		$item['pub_date'] = "2012-01-01 00:00:00";
-		$item['duration'] = "00:03:20";
+		$getID3 = new getID3;
+		$fileInfo = $getID3->analyze($file);
+		
+		$item['title'] = $fileInfo['tags']['id3v1']['title'][0];
+		$item['subtitle'] = "Falta por encontrar";
+		$item['author'] = "Dj Agustin, Dj Migue Soria, Dj Matt"; //$fileInfo['tags']['artis'][0];
+		$item['summary'] = $fileInfo['tags']['id3v1']['comment'][0];
+		$item['url'] = $fileInfo['tags']['id3v2']['url_user'][0];
+		$item['lenght'] = $fileInfo['filesize'];
+		$item['type'] = $fileInfo['mime_type'];
+		$item['pub_date'] = "01/01/2012 01:01:01";//$fileInfo['tags']['year'];
+		$item['duration'] = $fileInfo['playtime_string'];
 		$item['keywords'] = "muchobeat, mucho beat, music";
-		//$item['slug'] = "mucho-beat-01";
 		
 		$request->setParameter('item', $item);
-		$this->itemShortcutForm = new ItemShortcutForm();
+		$this->itemShortcutForm = $this->configuration->getForm();
 		
 		parent::executeCreate($request);
 	}
@@ -77,18 +80,22 @@ class itemActions extends autoItemActions
 	private function convertAuthorsArrayToString(sfWebRequest $request)
 	{
 		$formRequest = $request->getParameter($this->getModuleName());
-		$authors =  $formRequest['author']; //Authors as array
 		
-		$sAuthors="";
-		foreach ($authors as $i=>$author){
-			$sAuthors .= $author;		//Authors as string to save on DB
-			if (($i+1)<count($authors)){
-				$sAuthors.=", ";
+		if(isset($formRequest['author']))
+		{ 
+			$authors =  $formRequest['author'];
+			$sAuthors="";
+			
+			foreach ($authors as $i=>$author){
+				$sAuthors .= $author;		//Authors as string to save on DB
+				if (($i+1)<count($authors)){
+					$sAuthors.=", ";
+				}
 			}
+		
+			$formRequest['author'] = $sAuthors;
+			$request->setParameter($this->getModuleName(), $formRequest);
 		}
-	
-		$formRequest['author'] = $sAuthors;
-		$request->setParameter($this->getModuleName(), $formRequest);
 	}
 	
 	/**

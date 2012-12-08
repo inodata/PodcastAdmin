@@ -2,11 +2,12 @@
 <?php use_javascripts_for_form($form) ?>
 
 <div class="sf_admin_form">
-    <?php if ($form->hasGlobalErrors()): ?>
-      <?php echo $form->renderGlobalErrors() ?>
-    <?php endif; ?>
     
-	  <form action="<?php echo url_for('item_new_by_shortcut', array()) ?>" method="post">
+	 <?php echo form_tag_for($form, '@item_by_shortcut') ?>
+	  <?php echo $form->renderHiddenFields(false) ?>
+	  <?php if ($form->hasGlobalErrors()): ?>
+      	<?php echo $form->renderGlobalErrors() ?>
+      <?php endif; ?>
 	    <table cellspacing="0">
 	      <tfoot>
 	        <tr>
@@ -17,14 +18,14 @@
 	        </tr>
 	      </tfoot>
 	      <tbody>
-	      
-	      	<!-- Warning :  Customizar la renderizacion del formulario, que se escriban en <tr><td>
-	      	     parecido a como se renderiza el formulario de filtros
-	      	-->
-	      	
-	        <?php foreach ($configuration->getFormFields($form, $form->isNew() ? 'new' : 'edit') as $fieldset => $fields): ?>
-      			<?php include_partial('item/form_fieldset', array('item' => $item, 'form' => $form, 'fields' => $fields, 'fieldset' => $fieldset)) ?>
-			<?php endforeach; ?>
+	      	<tr>
+				<td><?php echo $form['channel_id']->renderLabel()?></td>
+				<td><?php echo $form['channel_id']->render()?></td>
+			</tr>
+			<tr>
+				<td><?php echo $form['file']->renderLabel()?></td>
+				<td><?php echo $form['file']->render()?></td>
+			</tr>
 	      </tbody>
 	    </table>
 	  </form>

@@ -12,4 +12,7 @@
  */
 class Channel extends BaseChannel
 {
+	public function getXml(){
+		$items = $this->getItems();
+	}
 }
