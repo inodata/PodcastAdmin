@@ -34,10 +34,11 @@ class podcastActions extends sfActions
   		->from('Channel c')
   		->where('c.id = ?', $channel);
   	
-  	$channel_list = $query->execute();
+  	$channel = $query->fetchOne();
+  	$this->items = $channel->getItems();
   	
   	//$channel_list[0]->getXml();
-  	$this->channel_items_xml = $channel_list[0]->getXml();
+  	$this->channel = $channel;
   	$this->setTemplate('podcast');
   }
 }
