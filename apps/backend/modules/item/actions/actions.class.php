@@ -19,7 +19,7 @@ class itemActions extends autoItemActions
 		$this->itemShortcutForm = $this->configuration->getForm();
 		
 		$this->item = $this->getRoute()->getObject();
-		$this->convertAuthorsStringToArray();
+		$this->item['author'] = $this->getAuthorsAsArray($this->item['author']);
 		$this->form = $this->configuration->getForm($this->item);
 	}
 	
@@ -50,21 +50,20 @@ class itemActions extends autoItemActions
 		$item = $request->getParameter("item");
 		
 		$files = $request->getFiles();
-		$file = $files['item']['file']['tmp_name'];
+		$fileDir = $files['item']['file']['tmp_name'];
 		
-		$getID3 = new getID3;
-		$fileInfo = $getID3->analyze($file);
+		$fileProperties = $this->getFileProperties($fileDir);
 		
-		$item['title'] = $fileInfo['tags']['id3v1']['title'][0];
-		$item['subtitle'] = "Falta por encontrar";
-		$item['author'] = "Dj Agustin, Dj Migue Soria, Dj Matt"; //$fileInfo['tags']['artis'][0];
-		$item['summary'] = $fileInfo['tags']['id3v1']['comment'][0];
-		$item['url'] = $fileInfo['tags']['id3v2']['url_user'][0];
-		$item['lenght'] = $fileInfo['filesize'];
-		$item['type'] = $fileInfo['mime_type'];
-		$item['pub_date'] = "01/01/2012 01:01:01";//$fileInfo['tags']['year'];
-		$item['duration'] = $fileInfo['playtime_string'];
-		$item['keywords'] = "muchobeat, mucho beat, music";
+		$item['title'] = $fileProperties['title'];
+		$item['subtitle'] = $fileProperties['subtitle'];
+		$item['author'] = $fileProperties['author'];
+		$item['summary'] = $fileProperties['summary'];
+		$item['url'] = $fileProperties['url'];
+		$item['lenght'] = $fileProperties['lenght'];
+		$item['type'] = $fileProperties['type'];
+		$item['pub_date'] = $fileProperties['pub_date'];
+		$item['duration'] = $fileProperties['duration'];
+		$item['keywords'] = $fileProperties['keywords'];
 		
 		$request->setParameter('item', $item);
 		$this->itemShortcutForm = $this->configuration->getForm();
@@ -102,11 +101,93 @@ class itemActions extends autoItemActions
 	 * Get the author parameter as string separated by comma, conver it to an array
 	 * then, updates the @var $this->channel in author parameter with the final array
 	 */
-	private function convertAuthorsStringToArray()
+	private function getAuthorsAsArray($author)
 	{
-		$authors = str_replace(", ", ",", $this->item['author']);
+		if (!$author){
+			$author = $this->item['author'];
+		}
+		
+		$authors = str_replace(", ", ",", $author);
 		$aAuthors = explode(',', $authors);
+		
+		return $aAuthors;
+	}
 	
-		$this->item['author'] = $aAuthors;
+	protected function getFileProperties($fileDir)
+	{
+		$is_complete = true;
+		
+		$getID3 = new getID3;
+		$fileInfo = $getID3->analyze($fileDir);
+		
+		$fileProperties = array();
+		
+		if (isset($fileInfo['tags']['id3v2']['title'][0])){
+			$fileProperties['title'] = $fileInfo['tags']['id3v2']['title'][0];
+		}else{
+			$fileProperties['title'] = "t"; //$is_complete = false;
+		}
+		
+		if (isset($fileInfo['tags']['id3v2']['subtitle'][0])){
+			$fileProperties['subtitle'] = $fileInfo['tags']['id3v2']['subtitle'][0];
+		}else {
+			$fileProperties['subtitle'] = ""; $is_complete = false;
+		}
+		
+		if (isset($fileInfo['tags']['id3v2']['artis'][0])){
+			$fileProperties['author'] = $fileInfo['tags']['id3v2']['artist'][0];
+		}else {
+			$fileProperties['author'] = "Dj Agustin, Dj Migue Soria, Dj Matt, Marcela Saiffe";
+		}
+		
+		if (isset($fileInfo['tags']['id3v2']['comment'][0])){
+			$fileProperties['summary'] = $fileInfo['tags']['id3v2']['comment'][0];
+		}else {
+			$fileProperties = ""; $is_complete = false;
+		}
+		
+		if (isset($fileInfo['tags']['id3v2']['url_user'][0])){
+			$fileProperties['url'] = $fileInfo['tags']['id3v2']['url_user'][0];
+		}
+		else {
+			$fileProperties['url'] = ""; $is_complete = false;
+		}
+		
+		if (isset($fileInfo['filesize'])){
+			$fileProperties['lenght'] = $fileInfo['filesize'];
+		}
+		else {
+			$fileProperties['length'] = ""; $is_complete = false;
+		}
+		
+		if (isset($fileInfo['mime_type'])){
+			$fileProperties['type'] = $fileInfo['mime_type'];
+		}
+		else {
+			$fileProperties['type'] = ""; $is_complete = false;
+		}
+		
+		$fileProperties['pub_date'] = date("d/m/Y h:m:s");
+		
+		if (isset($fileInfo['playtime_string'])){
+			$fileProperties['duration'] = $fileInfo['playtime_string'];
+		}
+		else {
+			$fileProperties['duration'] = ""; $is_complete = false;
+		}
+		
+		if (isset($fileInfo['tags']['id3v2']['keyword'][0])){
+			$fileProperties['keywords'] = $fileInfo['tags']['id3v2']['keyword'][0];
+		}else {
+			$fileProperties['keywords'] = "muchobeat, mucho beat, music";
+		}
+		
+		$fileProperties['image'] = "";
+		
+		if (!$is_complete){
+			$fileProperties['author'] = $this->getAuthorsAsArray($fileProperties['author']);
+		}
+		
+		return $fileProperties;
 	}
 }
