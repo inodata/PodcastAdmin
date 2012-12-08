@@ -19,12 +19,12 @@ class channelActions extends autoChannelActions
 		$this->convertAuthorsStringToArray();
 		$this->form = $this->configuration->getForm($this->channel);
 		
-		$this->itemShortcutForm = new ItemShortcutForm();
+		$this->itemShortcutForm = new ItemForm();
 	}
 	
 	public function executeNew(sfWebRequest $request)
 	{
-		$this->itemShortcutForm = new ItemShortcutForm();
+		$this->itemShortcutForm = new ItemForm();
 		
 		parent::executeNew($request);
 	}
@@ -32,7 +32,7 @@ class channelActions extends autoChannelActions
 	public function executeCreate(sfWebRequest $request)
 	{
 		$this->convertAuthorsArrayToString($request);
-		$this->itemShortcutForm = new ItemShortcutForm();
+		$this->itemShortcutForm = new ItemForm();
 		
 		parent::executeCreate($request);
 	}
@@ -40,7 +40,7 @@ class channelActions extends autoChannelActions
 	public function executeUpdate(sfWebRequest $request)
 	{
 		$this->convertAuthorsArrayToString($request);
-		$this->itemShortcutForm = new ItemShortcutForm();
+		$this->itemShortcutForm = new ItemForm();
 		
 		parent::executeUpdate($request);
 	}
