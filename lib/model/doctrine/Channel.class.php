@@ -14,5 +14,28 @@ class Channel extends BaseChannel
 {
 	public function getXml(){
 		$items = $this->getItems();
+		$xml = <<<XML
+			<channel>
+				<title>$this->getTitle()</title>
+				<link>$this->getLink()</link>
+				<language>$this->getLanguage()</language>
+				<copyright>$this->getCopyright()</copyright>
+				<itunes:subtitle>$this->getSubtitle()</itunes:subtitle>
+				<itunes:author>$this->getAuthor()</itunes:author>
+				<itunes:summary>$this->getSummary()</itunes:summary>
+				<description>$this->getDescription()</description>
+				<itunes:owner>
+					<itunes:name>Agustin Sanchez</itunes:name>
+					<itunes:email>info@muchobeat.com</itunes:email>
+				</itunes:owner>
+				<itunes:explicit>$this->getExplicit()</itunes:explicit>
+				<itunes:image href="http://itunes.muchobeat.com/images/muchobeat_podcast01.jpg" />
+				<itunes:category text="$this->getCategory()" />
+XML;
+		foreach ($items as $item){
+			$xml .= $item->getXml();
+		}
+		$xml .= "</channel>";
+		return $xml;
 	}
 }
