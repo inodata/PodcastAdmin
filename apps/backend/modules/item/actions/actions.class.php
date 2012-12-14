@@ -2,7 +2,7 @@
 
 require_once dirname(__FILE__).'/../lib/itemGeneratorConfiguration.class.php';
 require_once dirname(__FILE__).'/../lib/itemGeneratorHelper.class.php';
-require_once '/home/heriberto/workspace/PodcastAdmin/lib/vendor/getid3/getid3.php';
+require_once dirname(__FILE__).'/../../../../../lib/vendor/getid3/getid3.php';
 
 /**
  * item actions.
@@ -33,6 +33,19 @@ class itemActions extends autoItemActions
 	public function executeCreate(sfWebRequest $request)
 	{
 		$this->itemShortcutForm = $this->configuration->getForm();
+		
+		$item = $request->getParameter("item");
+		$files = $request->getFiles();
+		$fileDir = $files['item']['file']['tmp_name'];
+		
+		$fileProperties = $this->getFileProperties($fileDir);
+		
+		$item['keywords'] = $fileProperties['keywords'];
+		$item['lenght'] = $fileProperties['lenght'];
+		$item['duration'] = $fileProperties['duration'];
+		$item['type'] = $fileProperties['type'];
+		
+		$request->setParameter('item', $item);
 		
 		$this->convertAuthorsArrayToString($request);
 		parent::executeCreate($request);
@@ -125,7 +138,7 @@ class itemActions extends autoItemActions
 		if (isset($fileInfo['tags']['id3v2']['title'][0])){
 			$fileProperties['title'] = $fileInfo['tags']['id3v2']['title'][0];
 		}else{
-			$fileProperties['title'] = "t"; //$is_complete = false;
+			$fileProperties['title'] = ""; $is_complete = false;
 		}
 		
 		if (isset($fileInfo['tags']['id3v2']['subtitle'][0])){

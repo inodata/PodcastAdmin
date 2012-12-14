@@ -20,7 +20,8 @@ class ItemForm extends BaseItemForm
   	 * Checa si el objeto es nuevo pone la imagen default
   	 */
   	$file_src = '/uploads/images/'.$this->getObject()->getImage();
-  	if ($this->getObject()->isNew())
+  	
+  	if ($this->getObject()->isNew()||!$this->getObject()->getImage())
   	{
   		$file_src = '/assets/default_image.jpg';
   	}
@@ -43,18 +44,17 @@ class ItemForm extends BaseItemForm
   	));
   	
   	$mime_types_images = array('image/jpeg', 'image/png', 'image/bmp', 'image/gif');
-  	$imgSize = $this->getObject()->getImage()!=""? "60px" : "";
   	
   	$this->widgetSchema['image'] = new sfWidgetFormInputFileEditable(array(
-  			'file_src' => '/uploads/channels/'.$this->getObject()->getImage(),
+  			'file_src' => $file_src,
   			'with_delete' => false,
-  			'template' => '<div><img src="%file%" width="'.$imgSize.'" height="'.$imgSize.'"></img><br><br>%input%</div>'
+  			'template' => '<div><img src="%file%" width="100px" height="60px"></img><br><br>%input%</div>'
   	));
   	
-  	$required = $this->getObject()->getImage()!="" ? false : true;
+  	//$required = $this->getObject()->getImage()!="" ? false : true;
   	 
   	$this->validatorSchema['image'] = new sfValidatorFile(array(
-  			'required' => false,//$required,
+  			'required' => false,
   			'path' => sfConfig::get("sf_upload_dir").'/channels/',
   			'mime_types' => $mime_types_images,
   	));

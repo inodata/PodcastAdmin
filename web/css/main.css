@@ -1,0 +1,66 @@
+#header ul{
+	margin: 0;
+}
+#header li{
+	float: left;
+}
+#header li a{
+	text-decoration: none;
+	color: #464646;
+	font-weight: bold;
+}
+#header li a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+#header >div {
+	clear: both;
+	height: 30px;
+}
+#header >div div{
+	width:50%;
+	float: left;
+}
+#header div#navigation li{
+	padding: 1px 10px 1px 10px;
+	border-right: solid 2px #000;
+	color: #464646;
+}
+#header div#navigation li.last{
+	border: none;
+	padding-right: 0;
+}
+#sf_admin_container{
+	clear: left;
+}
+#header div#navigation ul{
+	float: right;
+}
+#header div#navigation-module{
+	padding-top: 5px;
+}
+#header div#navigation-module li{
+	padding: 3px 15px 3px 15px;
+	border: solid 1px #464646;
+	border-bottom: solid 3px #464646;
+	color: #464646;
+}
+#header div#navigation-module li:hover, div#navigation-module li.active{
+	background: #464646;
+	text-decoration: none;
+	color: #FFF;
+}
+#header div#navigation-module li.active a{
+	color: #FFF;
+}
+#header div#navigation-module li a{
+	color: inherit;
+	text-decoration: inherit;
+	font-weight: bold;
+}
+#header div#search{
+	padding-top: 5px;
+}
+#header div#search form{
+	float: right;
+}
